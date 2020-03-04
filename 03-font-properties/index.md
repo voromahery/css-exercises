@@ -3,7 +3,7 @@
 List each of the font properties from this list:
 
 - `font`
-- `font-family`
+  - `font-family`
   - `font-size`
   - `font-weight`
   - `font-style`
