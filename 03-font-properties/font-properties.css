@@ -1,8 +1,262 @@
 * {
 /*
   Property name
-  Property description
-*/
-  /* Property example with a value */
+  Font-family
+  */
 
+/*
+  Property description
+  Font-family is used to change the type of the font.
+  */
+
+  /* Property example with a value */
+  font-family: Georgia, serif;
 }
+
+* {
+  /*
+  Property name
+  Font-size
+  */
+
+  /* Property description
+  Font-size can change the size of a font to become bigger or smaller.
+  */
+
+  /* Property example with a value */
+  font-size: x-large;
+  }
+
+* {
+  /*
+  Property name
+  Font-weight
+  */
+
+  /* Property description
+  Font-weight can change the form of the font to become bold or lighter.
+  */
+
+  /* Property example with a value*/
+  font-weight: bolder;
+  }
+
+  * {
+    /*
+    Property name
+    Font-style
+    */
+
+    /* Property description
+    Font-style is used to change the style of the text into italic, olique, etc.
+    */
+
+    /* Property example with a value */
+    font-style: italic;
+  }
+
+* {
+  /*
+  Property name
+  Line-height
+  */
+
+  /* Property description
+  Line-height sets the distance between the line of a text.
+  */
+
+  /* Property example with a value */
+  line-height: 3cm;
+  }
+
+* {
+  /*
+    Property name
+    Font-variant
+    */
+
+  /* Property description
+  Font-variant only change the font of a text but not its size.
+  */
+
+    /* Property example with a value */
+   font-variant: small-caps;
+  }
+
+* {
+    /*
+    Property name
+    Font-stretch
+    */
+
+    /* Property description
+    Font-stretch is used to condense or expand a text.
+    */
+
+    /* Property example with a value */
+    font-stretch: ultra-expanded;
+  }
+
+* {
+    /*
+    Property name
+    Font-size-adjust */
+
+    /* Property description
+    Font-size-adjust can change the size of a specific text (capital or lower-case).
+    */
+
+    /* Property example with a value */
+    font-size-adjust: initial;
+  }
+
+* {
+    /*
+    Property name
+    Font-synthesis */
+
+    /* Property description
+    Font-synthesis emphasises a specific text like a bold or an italic.
+    */
+
+    /* Property example with a value */
+    font-synthesis: style;
+  }
+
+* {
+    /*
+    Property name
+    Letter-spacing */
+
+    /* Property description
+    Letter-spacing controls the space between the caracters in a text.
+    */
+
+    /* Property example with a value */
+    letter-spacing: 2cm;
+
+  }
+
+* {
+    /*
+    Property name
+    Word-spacing */
+
+    /* Property description
+    Word-spacing controls the space between words.
+    */
+
+    /* Property example with a value */
+    word-spacing: 2cm;
+  }
+
+* {
+    /*
+    Property name
+    Text-align */
+
+    /* Property description
+    Text-align controls how the text aligned in the document.
+    */
+
+    /* Property example with a value */
+    text-align: center;
+  }
+
+* {
+    /*
+    Property name
+    Text-decoration
+    */
+
+    /* Property description
+    Text-decoration controls the appearance of the line which decorates the text.
+    */
+
+    /* Property example with a value */
+    text-decoration: yellow;
+  }
+
+* {
+    /*
+    Property name
+    Text-decoration-line
+    */
+
+    /* Property description
+    Text-decoration-line controls the position of the line that decorates a text.
+    */
+
+    /* Property example with a value */
+    text-decoration-line: overline;
+  }
+
+* {
+    /*
+    Property name
+    Text-decoration-color
+    */
+
+    /* Property description
+    Text-decoration-color can change the colour of the line that decorates a text.
+    */
+
+    /* Property example with a value */
+    text-decoration-color: aqua;
+  }
+
+* {
+    /*
+    Property name
+    Text-indent
+    /*
+
+    /* Property description
+    Text-indent controls the indentation of a text.
+    */
+
+    /* Property example with a value */
+    text-indent:  4cm;
+  }
+
+* {
+    /*
+    Property name
+    Text-transform
+    /*
+
+    /* Property description
+    Text-transform controls the capitalisation of a text.
+    */
+
+    /* Property example with a value */
+    text-transform: uppercase;
+  }
+
+* {
+    /*
+    Property name
+    Vertical-align
+    /*
+
+    /* Property description
+    Vertical-align sets vertical alignment of a content inside a box content, table and inline-block.
+    */
+
+    /* Property example with a value */
+    vertical-align: 3cm;
+  }
+
+* {
+    /*
+    Property name
+    White-space
+    /*
+
+    /* Property description
+    White-space controls the white-space inside a group of text, it can be wrapping the group of the text.
+    */
+
+    /* Property example with a value */
+    white-space: nowrap;
+  }
