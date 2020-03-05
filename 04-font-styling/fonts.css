@@ -1,0 +1,136 @@
+/* Structure */
+
+.example h1{
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-block-end: 1em;
+}
+
+.example h2{
+  font-size: 2rem;
+  font-weight: 700;
+  margin-block-end: 1em;
+}
+
+.example h3{
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-block-end: 1em;
+}
+
+.example h4{
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-block-end: 1em;
+}
+
+.example h5{
+  font-size: 1rem;
+  font-weight: 700;
+  margin-block-end: 1em;
+}
+
+.example h6{
+  font-size: 1rem;
+  font-weight: 700;
+  margin-block-end: 1em;
+  font-variant: small-caps;
+}
+
+.intro{
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin-block-end: 1em;
+  letter-spacing: 0.1em;
+}
+
+p{
+  font-size: 1rem;
+  font-weight: 400;
+  margin-block-end: 1em;
+}
+
+small{
+  font-size: 0.75rem;
+  font-weight: 400;
+  margin-block-end: 1em;
+}
+
+/* Font-family
+Sans_serif */
+
+#section_sans_serif{
+  font-family: Arial, Arial Black, Arial Narrow, Arial Rounded;
+}
+
+#section_sans_serif .example{
+  font-family: MT Bold, Avant Garde, Calibri, Candara,
+  Century Gothic, Franklin Gothic, Medium;
+}
+
+#section_sans_serif .intro{
+  font-family: Futura, Geneva, Gill Sans, Helvetica, Impact, Lucida Grande;
+}
+
+/* Font-family
+Serif */
+
+#section_serif{
+  font-family:Big Caslon, Bodoni MT, Book Antiqua, Calisto MT, Cambria, Didot, Garamond;
+}
+
+#section_serif .example{
+  font-family: Georgia, Goudy Old Style, Hoefler Text, Lucida Bright;
+}
+
+#section_serif .intro{
+  font-family: Palatino, Perpetua, Rockwell, Rockwell Extra Bold, Baskerville, Times New Roman, Monospaced;
+}
+
+/* Font-family
+Monospace */
+
+#section_monospace{
+  font-family: Consolas, Courier New, Lucida Console;
+}
+
+#section_monospace .example{
+  font-family: Lucida Sans Typewriter ;
+}
+
+#section_monospace .intro{
+  font-family: Monaco, Andale Mono;
+}
+
+/* Font-family
+Fantasy */
+
+#section_fantasy{
+  font-family: Copperplate;
+}
+
+#section_fantasy .example{
+  font-family: Papyrus;
+}
+
+#section_fantasy .intro{
+  font-family: fantasy;
+}
+
+/* Font-family
+cursive */
+
+#section_cursive{
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+#section_cursive .example{
+  font-family: Apple Chancery, cursive
+  Bradley Hand;
+}
+
+#section_cursive .intro{
+  font-family: cursive
+  Brush Script MT, Brush Script Std, cursive
+  Snell Roundhand;
+}
