@@ -34,7 +34,7 @@
   */
 
   /* Property description
-  Font-weight can change the form of the font to become bold or lighter.
+  Font-weight can change the form of the font to become thicker or lighter.
   */
 
   /* Property example with a value*/
@@ -48,7 +48,7 @@
     */
 
     /* Property description
-    Font-style is used to change the style of the text into italic, olique, etc.
+    Font-style is used to change the style of the text in a different ways like italic, oblique, normal.
     */
 
     /* Property example with a value */
@@ -62,7 +62,7 @@
   */
 
   /* Property description
-  Line-height sets the distance between the line of a text.
+  Line-height sets the height of the line box.
   */
 
   /* Property example with a value */
@@ -76,7 +76,7 @@
     */
 
   /* Property description
-  Font-variant only change the font of a text but not its size.
+  Font-variant only swiches on the optional features of a font.
   */
 
     /* Property example with a value */
@@ -90,7 +90,7 @@
     */
 
     /* Property description
-    Font-stretch is used to condense or expand a text.
+    Font-stretch is used to condense or expand a character of a text.
     */
 
     /* Property example with a value */
@@ -103,7 +103,7 @@
     Font-size-adjust */
 
     /* Property description
-    Font-size-adjust can change the size of a specific text (capital or lower-case).
+    Font-size-adjust keeps the redability of a text.
     */
 
     /* Property example with a value */
@@ -216,7 +216,7 @@
     */
 
     /* Property example with a value */
-    text-indent:  4cm;
+    text-indent: 4cm;
   }
 
 * {
