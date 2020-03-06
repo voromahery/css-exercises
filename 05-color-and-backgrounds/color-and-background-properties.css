@@ -1,8 +1,139 @@
 * {
   /*
     Property name
+    Color
+  */
+
+  /*
     Property description
+    Color is used to change color of a font.
   */
     /* Property example with a value */
-
+    color: yellow;
   }
+
+* {
+  /*
+    Property name
+    Background-color
+    */
+
+    /*
+    Property description
+    Background-color sets the backgroung color of an element.
+  */
+    /* Property example with a value */
+    background-color: violet;
+    }
+
+  * {
+    /*
+      Property name
+      Background-image
+    */
+
+    /*
+      Property description
+      Background image is used to put image as a background of a document.
+    */
+    /* Property example with a value */
+    background-image: image-set(image/jpg);
+    }
+
+* {
+  /*
+    Property name
+    Background-repeat
+  */
+
+  /*
+    Property description
+    Background-repeat sets how background images are repeated.
+    */
+    /* Property example with a value */
+    background-repeat: repeat-x;
+    }
+
+* {
+  /*
+    Property name
+    Background-position
+  */
+
+  /*
+    Property description
+    Background-position starts the starting position of a background image.
+  */
+  /* Property example with a value */
+    background-position: 1.5rem;
+    }
+
+* {
+  /*
+    Property name
+    Background-attachment
+  */
+
+  /*
+    Property description
+    Background-attachment sets whether background image's position is fixed within the viewport, or scroll with its containing block.
+  */
+  /* Property example with a value */
+    background-attachment: fixed;
+    }
+
+* {
+  /*
+    Property name
+    Background-clip
+  */
+
+  /*
+    Property description
+    Background-clip controls how far a background image or color extends beyond an element's padding or content.
+  */
+  /* Property example with a value */
+    background-clip: padding-box;
+    }
+
+* {
+  /*
+    Property name
+    Background-origin
+  */
+
+  /*
+    Property description
+    Background-origin determines how the background image or color is set inside the border or inside the padding.
+  */
+  /* Property example with a value */
+    background-origin: content-box;
+  }
+
+* {
+  /*
+    Property name
+    Background-size
+  */
+
+  /*
+    Property description
+    Background-size specifies the the size of a background image or color.
+  */
+  /* Property example with a value */
+    background-size: 1rem;
+    }
+
+* {
+  /*
+    Property name
+    Box-shadow
+  */
+
+  /*
+    Property description
+    Box-shadow applies shadow to a text.
+  */
+  /*Property example with a value */
+    box-shadow: 2rem;
+    }
