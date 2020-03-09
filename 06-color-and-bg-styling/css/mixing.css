@@ -1,0 +1,108 @@
+
+#dory{
+background-image: url("../images/crab.png"),
+                  url("../images/coral-reef.png"),
+                  url("../images/coral-reef.png"),
+                  url("../images/coral-reef.png"),
+                  url("../images/bubble.png"),
+                  url("../images/bubble.png"),
+                  url("../images/bubble.png"),
+                  url("../images/bubble.png"),
+                  linear-gradient(180deg, rgb(64, 165, 199) 200px,rgb(161, 161, 236) 400px,rgb(255, 202, 103) 100px);
+background-attachment: inherit;
+background-color: lightblue;
+background-blend-mode: normal,
+                       normal,
+                       normal,
+                       normal,
+                       screen,
+                       screen,
+                       screen,
+                       multiply,
+                       normal;
+background-repeat: no-repeat,
+                   no-repeat,
+                   no-repeat,
+                   no-repeat,
+                   no-repeat,
+                   no-repeat,
+                   no-repeat,
+                   no-repeat,
+                   no-repeat;
+background-size: 10%,
+                 100%,
+                 90%,
+                 80%,
+                 5%,
+                 3%,
+                 1%,
+                 20%,
+                 100%;
+background-position: 80% 90%,
+                     50% 80%,
+                     -90% 40%,
+                     150% 40%,
+                     60% 5%,
+                     65% 20%,
+                     60% 15%,
+                     left,
+                     0% 0%;
+}
+
+#henry{
+  background-image:
+                    url("../images/grass-clump.png"),
+                    url("../images/grass-clump.png"),
+                    url("../images/grass-clump.png"),
+                    url("../images/grass-clump.png"),
+                    url("../images/grass-clump.png"),
+                    url("../images/grass-clump.png"),
+                    url("../images/sun.png"),
+                    linear-gradient(180deg, lightblue 100px, rgb(208, 208, 238) 200px, rgb(238, 214, 170) 400px, lightyellow 200px);
+  background-position: 80% 50%/* smallest grass */,
+                       0% 60%/* first grass */,
+                       100% 70%/* last grass */,
+                       90% 100%/* fourth grass */,
+                       5% 95%/* second grass */,
+                       20% 90%/* third grass */,
+                       5% 5%/* sun */,
+                       0% 0%/* linear-gradient */;
+  background-size: 10%/* smallest grass */,
+                   20%/* first grass */,
+                   30%/* last grass */,
+                   40%/* fourth grass */,
+                   30%/* second grass */,
+                   40%/* third grass */,
+                   10%/* sun */,
+                   100%/* linear-gradient */;
+  background-blend-mode: normal,
+                         normal,
+                         normal,
+                         normal,
+                         normal,
+                         normal,
+                         normal,
+                         normal;
+  background-repeat: no-repeat,
+                     no-repeat;
+  }
+
+#lu-seal{
+  background-color: lemonchiffon;
+  background-image: url("../images/palm-2.png"),
+                    url("../images/palm.png"),
+                    url("../images/beach-ball.png"),
+                    url("../images/sun.png"),
+                    linear-gradient(180deg, lightblue 200px, blue 300px, orange 10px);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat,no-repeat;
+  background-position: 90% 30%,
+                       0% 30%,
+                       10% 50%,
+                       5% 5%,
+                       0% 0%;
+  background-size: 30em,
+                   30em,
+                   20em,
+                   10em,
+                   100%;
+}
