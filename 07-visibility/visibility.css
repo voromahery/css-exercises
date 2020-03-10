@@ -40,8 +40,8 @@ Display sets whether an element is treated as block or inline element and  the l
 
   - What is the difference between `opacity` and a `background-color` that is semi-transparent?
 
--->Opacity specifies the transparency of an element by using value between 1 and 0.
--->Background colour which is semi-transparent can use to specify transparency by using rgba value.
+-->Opacity applies to all of its children.
+-->Background colour applies to a specific element.
 
   - What is the difference between `display: none;` and `visibility: hidden;`?
 -->visibility: hidden visually hides an element and the element is still there as if the opacity is turned into 0.
