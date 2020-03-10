@@ -1,18 +1,51 @@
 * {
 /*
   Property name
+  Opacity
+
   Property description
+  Opacity specifies how transparent an element is. It has values 1 (100% opaque) and 0 (100% transparent).
 */
   /* Property example with a value */
+  opacity: 1;
 }
 
+* {
+/*
+  Property name
+  Display
+
+  Property description
+Display sets whether an element is treated as block or inline element and  the layout used for its children, such as flow layout, grid or flex.
+  */
+  /* Property example with a value */
+  display: inline-block;
+  display: none;
+}
+
+* {
+/*
+  Property name
+  Visibility
+
+  Property description
+  Visibility sets whether an element is visible or hidden.
+  */
+  /* Property example with a value */
+  visibility: hidden;
+  }
 /*
   Questions
   =======================
 
   - What is the difference between `opacity` and a `background-color` that is semi-transparent?
+
+-->Opacity specifies the transparency of an element by using value between 1 and 0.
+-->Background colour which is semi-transparent can use to specify transparency by using rgba value.
+
   - What is the difference between `display: none;` and `visibility: hidden;`?
+-->visibility: hidden visually hides an element and the element is still there as if the opacity is turned into 0.
+-->display: none entirely removes the element from the pages.
   - Why would we use `visibility: visible;`?
-
+--> We use visibility: visible to make something visible, nothing is hidden by default.
 */
-
