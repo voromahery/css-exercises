@@ -1,6 +1,8 @@
-nav [href="#/about"],
-   [href="#/contact"] {
+nav li:not(:first-child) {
   visibility: hidden;
+}
+nav li:first-child {
+  visibility: visible;
 }
 
 [data-bg-color="yellow"],
