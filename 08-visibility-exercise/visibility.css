@@ -10,20 +10,6 @@ nav [href="#/about"],
   display: none;
 }
 
-#opacity-canvas span {
-  display: block;
-  flex-basis: auto;
-  flex-grow: 1;
-}
-
-#opacity-canvas span:nth-of-child(1) {
-  background-color: rgba(128, 127, 0, 1);
-}
-
-#opacity-canvas span:nth-of-child(2) {
-  background-color:rgba(0, 127, 128, 1);
-}
-
-#opacity-canvas span:nth-of-child(3) {
-  background-image: rgb(98, 191, 0) 0%, rgb(95, 191, 64) 100% );
+span {
+  opacity: 0.5;
 }
