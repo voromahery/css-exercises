@@ -1,7 +1,75 @@
 * {
   /*
     Property name
+    Border
+
     Property description
+    Border is used to creat a border around a box.
   */
     /* Property example with a value */
+    border: solid;
   }
+
+* {
+  /*
+    Property name
+    Margin
+
+    Property description
+    Margin is used to set margin around a border or an empty area.
+  */
+    /* Property example with a value */
+    margin: 1em;
+  }
+
+* {
+  /*
+    Property name
+    Padding
+
+    Property description
+    Padding is an element inside the border.
+  */
+    /* Property example with a value */
+    padding: 2em;
+  }
+
+* {
+  /*
+    Property name
+    Display
+
+    Property description
+    Display controls the behaviour of a box or how the box appear.
+  */
+    /* Property example with a value */
+    display: flex;
+  }
+
+* {
+  /*
+    Property name
+    Box-sizing
+
+    Property description
+    Box-sizing is used  to set the size of a box or its width and height.
+    */
+  /* Property example with a value */
+    box-sizing: 2rem;
+  }
+
+
+/*
+1- When two differently sized margins of two differdnt boxes collide, only the one which has bigger size appear.
+*/
+
+/*2- The formula for working out an element's visual width is using width and height.*/
+* {
+width: 1rem;
+height: 1rem;
+}
+/*
+It is different when using * {box-sizing: border-box;} because the recent one controls both width and height at the same time.
+
+3- The display values inline makes the new paragraph start in a new line with the same starting as the previous paragraph. The inline-block has similar work as display values inline but, this one have wider margin around the selected element as if it is floating. However, the block set every element into a block the same as element <p> or <div> in HTML does.
+*/
