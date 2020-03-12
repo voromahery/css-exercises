@@ -1,0 +1,48 @@
+
+/*
+ div {
+  text-align: center;
+  font-size: 1rem;
+  border-width: 0.25rem;
+ }
+
+ #margin {
+  margin: 1rem;
+  border: dashed;
+  content: normal;
+  width: 50rem;
+  height: 50rem;
+  text-align: 50% 50%;
+  background-color: greenyellow;
+}
+
+#border,
+#padding,
+#content {
+  border: solid;
+  content: normal;
+}
+
+#border,
+#padding {
+  margin: 7rem;
+}
+
+#border {
+  width: 35rem;
+  height: 35rem;
+  background-color: tomato;
+}
+
+#padding {
+  width: 20rem;
+  height: 20rem;
+  background-color: yellow;
+}
+
+#content {
+  margin: 5rem;
+  width: 10rem;
+  height: 10rem;
+  background-color: white;
+}
