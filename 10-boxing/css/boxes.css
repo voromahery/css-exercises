@@ -1,0 +1,106 @@
+/* header */
+h1 {
+  border-color: red;
+  padding: 1rem;
+  margin: 1rem 0rem;
+}
+
+header {
+  margin: 1rem 0rem;
+  padding: 1rem;
+  background-color: orange;
+}
+
+/* main */
+main {
+  padding: 2rem 1rem;
+  background-color: orange;
+}
+
+/* table */
+
+/* first tr */
+tr:first-child td:nth-child(1) {
+  padding-right: 1rem;
+  background-color: orange;
+}
+
+tr:first-child td:nth-child(2) {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  background-color: orange;
+}
+
+tr:first-child td:nth-child(3) {
+  padding-left: 1rem;
+  background-color: orange;
+}
+
+
+/* second tr */
+tr:nth-child(2) td:nth-child(1) {
+  padding-right: 1rem;
+  background-color: orange;
+}
+
+tr:nth-child(2) td:nth-child(2) {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  background-color: orange;
+}
+
+tr:nth-child(2) td:nth-child(3) {
+  padding-left: 1rem;
+  background-color: orange;
+}
+
+/* third tr */
+tr:nth-child(3) td:nth-child(1) {
+  padding-right: 1rem;
+  background-color: orange;
+}
+
+tr:nth-child(3) td:nth-child(2) {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  background-color: orange;
+}
+
+tr:nth-child(3) td:nth-child(3) {
+  padding-left: 1rem;
+  background-color: orange;
+}
+
+
+/* footer */
+footer {
+  padding: 1rem;
+  background-color: orange;
+  margin: 1rem 0rem;
+}
+
+footer > span {
+  border: solid;
+  border-width: 1rem;
+  border-color: red;
+  display: block;
+}
+
+/* span */
+tr:nth-child(1) span {
+  border: red;
+  border: solid;
+  border-width: 0rem 0rem 1rem 0rem;
+}
+
+tr:nth-child(2) span {
+  border: red;
+  border: solid;
+  border-width: 1rem 0rem 1rem 0rem;
+}
+
+tr:nth-child(3) span {
+  border: red;
+  border: solid;
+  border-width: 1rem 0rem 0rem 0rem;
+}
