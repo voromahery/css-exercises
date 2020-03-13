@@ -1,18 +1,16 @@
 /* header */
 body{
- border-color: orange;
  margin: 1rem;
 }
 
 span {
-  border: solid;
+  border: 1rem solid;
 }
 
 h1 {
-  border-color: orange;
-  border: solid;
-  border-width: 1rem;
+  border: 1rem solid;
   padding: 1rem;
+  margin: 1rem;
 }
 
 header {
@@ -71,7 +69,7 @@ tr:nth-child(3) td:nth-child(3) {
 /* footer */
 footer {
   padding: 1rem;
-  margin: 1rem 0rem;
+  margin-block-start: 1rem;
 }
 
 footer > span {
