@@ -21,8 +21,9 @@ h1 {
 }
 
 header {
-  margin: 1rem 0rem;
   padding: 1rem;
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
 }
 
 /* main */
