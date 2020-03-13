@@ -1,13 +1,7 @@
 /* header */
 body{
- border-color: red;
+ border-color: orange;
  margin: 1rem;
-}
-header,
-main,
-td,
-footer {
-  background-color: orange;
 }
 
 span {
@@ -15,15 +9,14 @@ span {
 }
 
 h1 {
-  border-color: red;
+  border-color: orange;
   border: solid;
   border-width: 1rem;
   padding: 1rem;
 }
 
 header {
-  padding: 1rem;
-  margin-block-start: 1rem;
+  padding: 1rem 2rem;
   margin-block-end: 1rem;
 }
 
@@ -75,7 +68,6 @@ tr:nth-child(3) td:nth-child(3) {
   padding-left: 1rem;
 }
 
-
 /* footer */
 footer {
   padding: 1rem;
@@ -89,13 +81,14 @@ footer > span {
 
 /* span */
 tr:nth-child(1) span {
-  border-width: 0rem 0rem 1rem 0rem;
+  border-block-start: solid 1rem;
 }
 
 tr:nth-child(2) span {
-  border-width: 1rem 0rem 1rem 0rem;
+  border-block-start: solid 1rem;
+  border-block-end: solid 1rem;
 }
 
 tr:nth-child(3) span {
-  border-width: 1rem 0rem 0rem 0rem;
+  border-block-start: solid 1rem;
 }
