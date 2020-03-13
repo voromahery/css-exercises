@@ -1,6 +1,7 @@
 /* header */
 body{
  border-color: red;
+ margin: 1rem;
 }
 header,
 main,
