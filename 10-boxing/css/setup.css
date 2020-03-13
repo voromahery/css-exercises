@@ -39,7 +39,6 @@ body {
 h1 {
   text-transform: uppercase;
   font-size: calc(var(--base-unit) * 2);
-  padding: 1rem;
 }
 
 footer a {
