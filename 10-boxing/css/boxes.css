@@ -1,8 +1,8 @@
 /* header */
 h1 {
   border-color: red;
-  padding: 1rem;
-  margin: 1rem 0rem;
+  border: solid;
+  border-width: 1rem;
 }
 
 header {
@@ -16,8 +16,6 @@ main {
   padding: 2rem 1rem;
   background-color: orange;
 }
-
-/* table */
 
 /* first tr */
 tr:first-child td:nth-child(1) {
