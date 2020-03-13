@@ -60,7 +60,7 @@
 
 
 /*
-1- When two differently sized margins of two differdnt boxes collide, only the one which has bigger size appear.
+1- When two differently sized margins of two differdnt boxes collide, only the one which has bigger size takes the place and they combine together.
 */
 
 /*2- The formula for working out an element's visual width is using width and height.*/
