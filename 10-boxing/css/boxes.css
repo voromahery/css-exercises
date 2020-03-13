@@ -3,6 +3,7 @@ h1 {
   border-color: red;
   border: solid;
   border-width: 1rem;
+  padding: 1rem;
 }
 
 header {
