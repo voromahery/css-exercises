@@ -5,10 +5,12 @@ body > header {
 
 body > header a {
   color: white;
+  line-height: 0rem;
 }
 
 main > header h2 {
   font-size: 4rem;
+  line-height: 1rem;
 }
 
 body > header h1 {
