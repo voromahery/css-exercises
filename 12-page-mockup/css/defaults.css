@@ -7,3 +7,6 @@ footer {
   margin: 7rem;
 }
 
+body {
+  border: solid darkgrey 1px;
+}
