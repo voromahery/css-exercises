@@ -1,0 +1,24 @@
+
+body > nav {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2rem;
+  line-height: 1;
+  padding-block-start: 1rem;
+  margin-block-end: -7rem;
+  text-align: center;
+}
+
+body > nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body > nav li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+body > nav a {
+  color: white;
+}
