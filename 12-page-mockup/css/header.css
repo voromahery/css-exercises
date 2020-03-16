@@ -10,3 +10,7 @@ body > header a {
 main > header h2 {
   font-size: 4rem;
 }
+
+body > header h1 {
+text-align: left;
+}
