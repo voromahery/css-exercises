@@ -1,0 +1,11 @@
+footer h4>a {
+  font-variant: small-caps;
+  background-color: rgb(75, 75, 240);
+  color: white;
+  padding: 8px;
+  margin: 8rem;
+}
+
+footer h4 {
+  text-align: right;
+}
