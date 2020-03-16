@@ -8,11 +8,11 @@ body > header a {
   line-height: 0rem;
 }
 
+body > header h1 {
+text-align: left;
+}
+
 main > header h2 {
   font-size: 4rem;
   line-height: 1rem;
-}
-
-body > header h1 {
-text-align: left;
 }
