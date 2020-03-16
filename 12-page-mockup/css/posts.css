@@ -9,6 +9,10 @@ ol p{
   color: black;
 }
 
+ol li:first-child {
+  border-bottom: solid darkgrey 1px;
+}
+
 small,
 small a {
   font-family: serif;
