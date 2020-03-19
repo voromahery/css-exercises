@@ -21,6 +21,8 @@
 
 body {
 counter-reset: section;
+max-lines: 80;
+font-size: 1rem;
 }
 
 section > h3:before {
@@ -34,7 +36,8 @@ counter-reset: subsection;
 
 section > h4:before {
   counter-increment: subsection;
-  content: counter(section) "." counter(subsection) ". ";
+  content: counter(section) "."
+           counter(subsection) ". ";
 }
 
 section {
@@ -54,7 +57,10 @@ section > ol {
 
 ol > li:before {
   counter-increment: list;
-  content: counter(section) "." counter(subsection) ". " counter(ordered-list, lower-alpha) ". " counter(list, lower-roman) ". ";
+  content: counter(section) "."
+           counter(subsection) ". "
+           counter(ordered-list, lower-alpha) ". "
+           counter(list, lower-roman) ". ";
 }
  ol {
    list-style: none;
