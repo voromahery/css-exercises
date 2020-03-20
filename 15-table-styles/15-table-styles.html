@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>15-table-styles</title>
+</head>
+
+<body>
+  <header>
+    <h1>Table styling</h1>
+  </header>
+  <section>
+    <h2>Properties</h2>
+    <p>
+      Default value of properties:
+    </p>
+    <ul>
+      <li><code>table-layout</code>: auto;</li>
+      <li><code>border-spacing</code>: separate;</li>
+      <li><code>border-collapse</code>: 2px;</li>
+      <li><code>caption-side</code>: top;</li>
+      <li><code>empty-cells</code>: show;</li>
+    </ul>
+  </section>
+  <section>
+    <h2>Display value:</h2>
+    <p>
+      These elements correspond to :
+    </p>
+    <ul>
+      <li>table: table</li>
+      <li>table-row-group: trgroup</li>
+      <li>table-header-group: thgroup</li>
+      <li>table-footer-group:tfootgroup</li>
+      <li>table-row: tr</li>
+      <li>table-cell: td</li>
+      <li>table-column-group: colgroup</li>
+      <li>table-column: col</li>
+      <li>table-caption: caption</li>
+    </ul>
+  </section>
+  <section>
+    <h2>Further research</h2>
+    <p>
+      <b>border-spacing</b> requires <b>border</b> and its values before it can work effectively.
+    </p>
+    <p>
+      The downsides of using the various <code>table</code> value for <code>display</code> on a set of elements, thereby
+      simulating a table layout on non-table elements are:
+    </p>
+    <ul>
+      <li>Table renders the loading of the page slower.</li>
+      <li>According to some developers, making table into a responsove layout is very difficult to control.</li>
+      <li>It can break text copying.</li>
+    </ul>
+    <h3>Difference between <code>table-layout: fixed</code> and <code>table-layout: auto</code>:</h3>
+    <p>
+      <code>table-layout: fixed</code> the width of the table and column is controled by the width of the first row of
+      cells. It means that the width of each cells are the same.
+    </p>
+    <p>
+      <code>table-layout: auto</code> makes the table fit the content in it. The width of the table rows can be changed
+      per column.
+    </p>
+    <p>
+      → Yes, we can use <code>border-spacing</code> and other table-like properties on non-table elements.
+    </p>
+    <p>
+      <code>empty-cells</code> requires <code>display: table</code> before it can work effectively.
+    </p>
+  </section>
+</body>
+
+</html>
