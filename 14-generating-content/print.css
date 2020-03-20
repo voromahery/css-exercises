@@ -1,9 +1,28 @@
 /* Styles for all mediums go here */
 @media all {
-
+  body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
 }
 
 /* Only styles for printers please */
 @media print {
+  a::after {
+    content: " [" attr(href) "] ";
+    color: red;
+  }
 
+p > abbr::after {
+  content: " ["attr(title)"] ";
+  color: blue;
+}
+
+li blockquote::after {
+    content: " ["attr(cite)"] ";
+    color: green;
+  }
+
+img::after {
+  content: " ["attr(alt)"] ";
+}
 }
