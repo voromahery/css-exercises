@@ -1,0 +1,52 @@
+
+body {
+  border: 1px dimgray solid;
+  display: table ;
+  width: 600px;
+}
+
+main {
+  margin: 0.5rem;
+}
+
+header {
+  display: table-header-group;
+}
+
+section {
+  padding-block-start: 2rem;
+  display: table-row-group;
+}
+
+section > p {
+  padding-left: 12rem;
+  margin-left: 2rem;
+}
+
+section > h2 {
+  display: table-cell;
+   position: absolute;
+   padding-left: 7.5rem;
+}
+
+section:nth-child(2) > h2 {
+  padding-block-start: 2rem;
+  padding-block-end: 2rem;
+  padding-left: 6rem;
+}
+
+section:nth-child(3) > h2 {
+padding-block-start: 1.55rem;
+padding-block-end: 1.55rem;
+padding-left: 6.5rem
+}
+
+section:nth-child(4) > h2 {
+  padding-block-start: 6rem;
+  padding-block-end: 6rem;
+  padding-left: 6rem;
+}
+
+footer {
+  display: table-footer-group;
+}
