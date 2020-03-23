@@ -24,27 +24,27 @@ section > p {
 }
 
 section > h2 {
+  font-size: 1rem;
   display: table-cell;
    position: absolute;
-   padding-left: 7.5rem;
 }
 
 section:nth-child(2) > h2 {
-  padding-block-start: 2rem;
-  padding-block-end: 2rem;
-  padding-left: 6rem;
+  padding-block-start: 3rem;
+  padding-block-end: 3rem;
+  padding-left: 8rem;
 }
 
 section:nth-child(3) > h2 {
-padding-block-start: 1.55rem;
-padding-block-end: 1.55rem;
-padding-left: 6.5rem
+padding-block-start: 2.45rem;
+padding-block-end: 2.45rem;
+padding-left: 8.2rem
 }
 
 section:nth-child(4) > h2 {
-  padding-block-start: 5rem;
-  padding-block-end: 5rem;
-  padding-left: 5.5rem;
+  padding-block-start: 6.3rem;
+  padding-block-end: 6.3rem;
+  padding-left: 7.5rem;
 }
 
 footer {
