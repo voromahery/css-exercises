@@ -45,31 +45,29 @@
   <section>
     <h2>Further research</h2>
     <p>
-      <b>border-spacing</b> requires <b>border</b> and its values before it can work effectively.
+      <b>border-spacing</b> requires <b>border-collapse</b> and its values before it can work effectively.
     </p>
     <p>
       The downsides of using the various <code>table</code> value for <code>display</code> on a set of elements, thereby
-      simulating a table layout on non-table elements are:
+      simulating a table layout on non-table elements is:
     </p>
-    <ul>
-      <li>Table renders the loading of the page slower.</li>
-      <li>According to some developers, making table into a responsove layout is very difficult to control.</li>
-      <li>It can break text copying.</li>
-    </ul>
+    <p>
+      We will miss the relationship between CSS and HTML.
+    </p>
     <h3>Difference between <code>table-layout: fixed</code> and <code>table-layout: auto</code>:</h3>
     <p>
       <code>table-layout: fixed</code> the width of the table and column is controled by the width of the first row of
       cells. It means that the width of each cells are the same.
     </p>
     <p>
-      <code>table-layout: auto</code> makes the table fit the content in it. The width of the table rows can be changed
-      per column.
+      <code>table-layout: auto</code> makes the table fit the content in it. The width of the cell is controlled by the
+      width of the content.
     </p>
     <p>
       → Yes, we can use <code>border-spacing</code> and other table-like properties on non-table elements.
     </p>
     <p>
-      <code>empty-cells</code> requires <code>display: table</code> before it can work effectively.
+      <code>empty-cells</code> requires <code>border-collapse: separate</code> before it can work effectively.
     </p>
   </section>
 </body>
