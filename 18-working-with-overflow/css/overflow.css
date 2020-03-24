@@ -1,1 +1,40 @@
+/* Clipping */
+#overflow_invisible > .examples .example:nth-child(1),
+#overflow_invisible > .examples .example:nth-child(2) {
+  overflow: hidden;
+}
 
+/* Scroll */
+#overflow_scroll > .examples:nth-child(2) .example:nth-child(1),
+#overflow_scroll > .examples:nth-child(2) .example:nth-child(2) {
+  overflow: auto;
+}
+
+#overflow_scroll > .examples:nth-child(3) .example:nth-child(2) {
+  overflow: scroll;
+}
+
+#overflow_scroll > .examples:nth-child(3) .example:nth-child(1) {
+  overflow: unset;
+}
+
+/* Clippig-circle */
+#clipping_circle .example {
+  clip-path: circle(10% at 83% 20%);
+}
+
+/* Clipping-polygon */
+#clipping_poly .example {
+  clip-path: polygon(75% 30%, 90% 50%, 75% 75%, 60% 50%);
+}
+
+/* Combining */
+#overclip div {
+clip-path: circle(30% at 50% 50%);
+overflow: scroll;
+}
+
+#overflow_ellipsis div {
+  overflow: scroll;
+  text-overflow: ellipsis;
+}

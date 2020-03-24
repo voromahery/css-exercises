@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Exercise 17</title>
+</head>
+
+<body>
+  <header>
+    <h1>Overflow and clipping</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Introduction</h2>
+      <p>
+        <dfn>Overflow</dfn> in <abbr title="cascade-style-sheet">CSS</abbr> refers to the way the contents of a box are
+        handled if they don't fit within that
+        box.
+      </p>
+      <p>
+        When a width restraint is placed on a box, the part of the text and other content within that box will go out of
+        the box.
+      </p>
+    </section>
+    <section>
+      <h2>Properties</h2>
+      <code>overflow: visible</code>
+      <p>
+        It helps to manage the content in a box if the content is too big for the box so that it can fit properly in a
+        box. It helps to control the layout.
+      </p>
+      <p>
+        To make it work, we need <code>border</code>.
+      </p>
+      <code>clip: auto</code>
+      <p>
+        It controls what part of a content is visible. It can also help to position an element.
+      </p>
+      <p>
+        To make it work, we need <code>border</code>.
+      </p>
+      <code>clip-path: auto</code>
+      <p>
+        It creates clipping region that sets what part of an element should be shown. It allows us to make complex
+        shape by clipping an element into a basic shape (circle, polygon, ellipse...).
+      </p>
+      <p>
+        To make it work, we need <code>clip-path</code>.
+      </p>
+      <code>text-overflow: ellipsis</code>
+      <p>
+        It decreases the amount of text displayed.
+      </p>
+      <p>
+        To make it work, we need <code>padding</code> and <code>border</code>.
+      </p>
+      <p>
+        The browser's default way to handle contents that larger than its container is a <b>overflow-container</b>.
+      </p>
+      <p>
+        <b>Ellipsis</b> displays ellipsis to present clipped text. However, <b>ellipse</b> is a way to clip a content to make it circular.
+      </p>
+      <p>
+        <code>text-overflow</code> is different from other properties because it only affects content that is
+        overflowing a block container element in its inline progression direction.
+      </p>
+    </section>
+  </main>
+</body>
+
+</html>
