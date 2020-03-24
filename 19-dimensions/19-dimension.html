@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Exercise 19</title>
+</head>
+
+<body>
+  <header>
+    <h1>Dimensions</h1>
+  </header>
+  <main>
+    <h2>Properties:</h2>
+    <ul>
+      <li><code>width: auto</code></li>
+      <li><code>height: auto</code></li>
+      <li><code>min-width: 0</code></li>
+      <li><code>max-width: none</code></li>
+      <li><code>min-height: 0</code></li>
+      <li><code>max-height: none</code></li>
+    </ul>
+    <p>
+      These values doesn't change if the element is a block-like or an inline-like element because inline-like or block-like elements maintain their <code>width</code> and <code>height</code>.
+    </p>
+    <p>
+      If the <code>min-width</code> is greater than <code>width</code>, the <code>min-width</code> controls the size of
+      an element.
+    </p>
+    <p>
+      If the <code>max-width</code> is less than a <code>width</code>, the size of an element is set by the
+      <code>width</code>.
+    </p>
+    <p>
+      If the <code>min-width</code> is greater than <code>max-width</code>, the size of an element is controled by the <code>min-width</code>.
+    </p>
+    <p>
+      <b>Percentage</b> doesn't work with a <code>height</code>, but it can work with <code>width</code>.
+    </p>
+    <code>div {
+      min-width: 20rem;
+      max-width: 80vw;
+    }
+    </code>
+    <p>In this ruleset, it seems that the unit <b>vw</b> is less than <b>rem</b>, so the value <b>rem</b> is applied.</p>
+    <p>The implied <code>width</code> of a <code>div</code> is <code>min-width: 20rem</code>.</p>
+  </main>
+</body>
+
+</html>
