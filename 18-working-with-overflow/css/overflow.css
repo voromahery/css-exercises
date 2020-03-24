@@ -28,13 +28,17 @@
   clip-path: polygon(75% 30%, 90% 50%, 75% 75%, 60% 50%);
 }
 
-/* Combining */
+/* Combination */
 #overclip div {
-clip-path: circle(30% at 50% 50%);
 overflow: scroll;
 }
 
+#overclip div > img {
+  clip-path: circle(10% at 64% 25%);
+}
+
 #overflow_ellipsis div {
-  overflow: scroll;
+  white-space: nowrap;
   text-overflow: ellipsis;
+  overflow: hidden;
 }
