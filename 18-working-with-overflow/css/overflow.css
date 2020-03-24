@@ -30,7 +30,7 @@
 
 /* Combination */
 #overclip div {
-overflow: scroll;
+overflow: hidden;
 }
 
 #overclip div > img {
