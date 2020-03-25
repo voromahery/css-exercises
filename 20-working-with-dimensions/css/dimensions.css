@@ -1,0 +1,18 @@
+
+body > section:nth-child(1) .example img {
+max-width: 100%;
+height: auto;
+}
+
+section:nth-child(2) .table_container {
+  overflow: auto;
+}
+
+table {
+  min-width: 356px;
+}
+
+svg{
+  max-width: 100vw;
+  max-height: 100vh;
+}
