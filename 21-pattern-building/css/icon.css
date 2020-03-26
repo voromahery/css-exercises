@@ -1,0 +1,59 @@
+section:nth-child(2) a {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.4rem;
+  color: white;
+}
+
+
+.icon_left::before,
+.icon_right::after {
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50% 50%;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* style the first button */
+.example:nth-child(3) a {
+  background-color: rgb(70, 70, 247);
+  border-block-end: solid 3px darkblue;
+  border-right: solid 3px darkblue;
+}
+
+.icon_left::before {
+  content: " ";
+  background-image: url(../icon-facebook.png);
+}
+
+.example:nth-child(3) a:hover {
+  background-color: darkblue;
+  border: solid 4px rgb(70, 70, 247);
+  font-size: 1.3rem;
+}
+.icon_left::before:hover{
+  content: " ";
+  background-image: url(../icon-facebook.png);
+  background-size: 3rem;
+}
+
+/* style the second button */
+.icon_right::after {
+  content: " ";
+  background-image: url(../icon-facebook.png);
+}
+
+.example:nth-child(5) a {
+  background-color: purple;
+  border-block-end: solid 3px plum;
+  border-right: solid 3px plum;
+}
+
+.example:nth-child(5) a:hover {
+  background-color:deeppink;
+  border: solid 4px plum;
+  font-size: 1.3rem;
+}
