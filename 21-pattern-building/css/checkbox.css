@@ -1,0 +1,16 @@
+
+ul {
+display: none;
+}
+
+input[type="checkbox"]:checked ~ .dropdown_contents > ul {
+  display: block;
+}
+
+input[type="checkbox"] ~ .dropdown_trigger::after {
+  content: " ▼";
+}
+
+input[type="checkbox"]:checked ~ .dropdown_trigger::after{
+  content: " ▲";
+}
