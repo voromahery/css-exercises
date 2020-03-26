@@ -1,0 +1,16 @@
+
+
+.breadcrumb ol > li {
+  display: inline;
+}
+.breadcrumb li {
+  padding: 1rem;
+}
+
+.breadcrumb li:nth-child(1) > a::before {
+  content: "˂ ";
+}
+
+.breadcrumb li:nth-child(2) > a::before {
+  content: "˂ ";
+}
