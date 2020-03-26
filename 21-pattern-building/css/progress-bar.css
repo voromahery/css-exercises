@@ -1,0 +1,60 @@
+.progress_indicator {
+  counter-reset: step;
+}
+
+.progress_indicator li {
+  list-style-type: none;
+  width: 25%;
+  float: left;
+  font-size: 12px;
+  position: relative;
+  color:black;
+}
+
+.progress_indicator li a::before {
+  width: 30px;
+  height: 30px;
+  content: counter(step);
+  counter-increment: step;
+  line-height: 30px;
+  border: 2px solid black;
+  display: block;
+  text-align: center;
+  margin: 0 auto 10px auto;
+  border-radius: 50%;
+  background-color: yellow;
+}
+
+.progress_indicator li:nth-child(2)::before,
+.progress_indicator li:nth-child(3)::before,
+.progress_indicator li:nth-child(4)::before {
+  width: 30px;
+  height: 30px;
+  content: counter(step);
+  counter-increment: step;
+  line-height: 30px;
+  border: 2px solid black;
+  display: block;
+  text-align: center;
+  margin: 0 auto 10px auto;
+  border-radius: 50%;
+  background-color: yellow;
+}
+
+.progress_indicator li::after {
+  content: none;
+}
+
+.progress_indicator li.active {
+  color: green;
+}
+
+.progress_indicator li.active::before {
+  content: " ";
+  border-color: #55b776;
+}
+
+.progress_indicator li.active + li:after {
+  content: " ";
+  background-color: #55b776;
+}
