@@ -11,6 +11,6 @@ input[type="checkbox"] ~ .dropdown_trigger::after {
   content: " ▼";
 }
 
-input[type="checkbox"]:checked ~ .dropdown_trigger::after{
+input[type="checkbox"]:checked ~ .dropdown_trigger::after {
   content: " ▲";
 }
