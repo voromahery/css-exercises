@@ -14,3 +14,15 @@
 .breadcrumb li:nth-child(2) > a::before {
   content: "˂ ";
 }
+
+.breadcrumb a {
+  background-color: gainsboro;
+  padding: 0.5rem;
+  box-shadow: black 5px 5px 5px;
+  border-radius: 20px;
+}
+
+.breadcrumb a:hover {
+padding: 0.6rem;
+background-color: gray;
+}
