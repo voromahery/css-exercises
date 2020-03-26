@@ -3,58 +3,47 @@
 }
 
 .progress_indicator li {
-  list-style-type: none;
+  list-style: none;
+  display: inline-block;
+  padding: 1rem;
+}
+
+.progress_indicator li [href="#/steps/1/"]
+.progress_indicator li .a11y {
   width: 25%;
   float: left;
   font-size: 12px;
   position: relative;
-  color:black;
+  color: white;
 }
 
-.progress_indicator li a::before {
+.progress_indicator li [href="#/steps/1/"]::before,
+.progress_indicator li:nth-child(2) .a11y::before,
+.progress_indicator li:nth-child(3) .a11y::before,
+.progress_indicator li:nth-child(4) .a11y::before {
   width: 30px;
   height: 30px;
   content: counter(step);
   counter-increment: step;
   line-height: 30px;
-  border: 2px solid black;
+  border: 2px solid rgb(110, 104, 104);
   display: block;
   text-align: center;
   margin: 0 auto 10px auto;
   border-radius: 50%;
-  background-color: yellow;
+  background-color: white;
 }
 
-.progress_indicator li:nth-child(2)::before,
-.progress_indicator li:nth-child(3)::before,
-.progress_indicator li:nth-child(4)::before {
-  width: 30px;
-  height: 30px;
-  content: counter(step);
-  counter-increment: step;
-  line-height: 30px;
-  border: 2px solid black;
-  display: block;
-  text-align: center;
-  margin: 0 auto 10px auto;
-  border-radius: 50%;
-  background-color: yellow;
-}
-
-.progress_indicator li::after {
-  content: none;
-}
-
-.progress_indicator li.active {
+.progress_indicator li {
   color: green;
 }
 
-.progress_indicator li.active::before {
+.progress_indicator li .a11y ::before {
   content: " ";
-  border-color: #55b776;
+  border-color: blue;
 }
 
-.progress_indicator li.active + li:after {
+.progress_indicator li .a11y + li .a11y ::after {
   content: " ";
-  background-color: #55b776;
+  background-color: blue;
 }
