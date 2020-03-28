@@ -1,0 +1,38 @@
+section:nth-of-type(2) .container {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+section:nth-of-type(2) .circle:nth-of-type(1),
+section:nth-of-type(2) .circle:nth-of-type(2),
+section:nth-of-type(2) .circle:nth-of-type(3),
+section:nth-of-type(2) .circle:nth-of-type(4) {
+  position: absolute;
+}
+
+/* Position vertical (top) */
+section:nth-of-type(2) .circle:nth-of-type(1),
+section:nth-of-type(2) .circle:nth-of-type(3) {
+top: -100px;
+}
+
+/* position vertical (bottom) */
+section:nth-of-type(2) .circle:nth-of-type(2)/* first from the bottom */,
+section:nth-of-type(2) .circle:nth-of-type(4)/* last from the bottom */ {
+  bottom: -100px;
+}
+
+/* position horizontal (left and right) */
+section:nth-of-type(2) .circle:nth-of-type(1)/* first from the top */,
+section:nth-of-type(2) .circle:nth-of-type(2)/* first from the bottom*/ {
+  right: 100px;
+  left: -100px;
+}
+
+section:nth-of-type(2) .circle:nth-of-type(3)/* last from the top */,
+section:nth-of-type(2) .circle:nth-of-type(4)/* last from the bottom */ {
+  right: -100px;
+  left: 100px;
+}
