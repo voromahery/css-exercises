@@ -1,0 +1,30 @@
+section:nth-of-type(1) .example {
+  width: 200px;
+  height: 200px;
+}
+
+section:nth-of-type(1) .example .container{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+
+section:nth-of-type(1) .example .circle,
+section:nth-of-type(1) .example .rect,
+section:nth-of-type(1) .example .pipe,
+section:nth-of-type(1) .example .bar {
+  position: absolute;
+}
+/* position vertical */
+section:nth-of-type(1) .example .circle,
+section:nth-of-type(1) .example .pipe {
+  top: 150px;
+}
+
+/* position horizontal */
+section:nth-of-type(1) .example .circle,
+section:nth-of-type(1) .example .bar {
+    right: -150px;
+    left: 150px;
+}
+
