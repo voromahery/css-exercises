@@ -1,12 +1,7 @@
-section:nth-of-type(1) .example {
+section:nth-of-type(1) .container {
   width: 200px;
   height: 200px;
-}
-
-section:nth-of-type(1) .example .container{
-  width: 50px;
-  height: 50px;
-  position: absolute;
+  position: relative;
 }
 
 section:nth-of-type(1) .example .circle,
@@ -14,17 +9,17 @@ section:nth-of-type(1) .example .rect,
 section:nth-of-type(1) .example .pipe,
 section:nth-of-type(1) .example .bar {
   position: absolute;
+  width: 25%;
+  height: 25%;
 }
 /* position vertical */
 section:nth-of-type(1) .example .circle,
 section:nth-of-type(1) .example .pipe {
-  top: 150px;
+  bottom: 0%;
 }
 
 /* position horizontal */
-section:nth-of-type(1) .example .circle,
-section:nth-of-type(1) .example .bar {
-    right: -150px;
-    left: 150px;
+section:nth-of-type(1) .example .bar,
+section:nth-of-type(1) .example .circle {
+    right: 0%;
 }
-
