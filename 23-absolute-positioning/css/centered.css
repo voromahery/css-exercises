@@ -8,7 +8,8 @@ section:nth-of-type(3) .container .rect,
 section:nth-of-type(3) .container .pipe,
 section:nth-of-type(3) .container .bar {
   position: absolute;
-  bottom: 50px;
-  left: 50px;
-  width: 100px;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+  height: 50%;
 }
