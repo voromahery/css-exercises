@@ -1,5 +1,4 @@
-
-ul {
+/*ul {
 display: none;
 }
 
@@ -13,4 +12,98 @@ input[type="checkbox"] ~ .dropdown_trigger::after {
 
 input[type="checkbox"]:checked ~ .dropdown_trigger::after {
   content: " ▲";
+}
+*/
+
+/* Shared state style */
+/* ======================================================== */
+
+.dropdown {
+position: relative;
+}
+
+.dropdown [type="checkbox"] {
+position: absolute;
+z-index: -1;
+top: 0;
+left: 0;
+}
+
+.dropdown_trigger {
+  background-color: yellow;
+  color: #000;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  display: inline-block;
+  position: relative;
+  padding-inline-end: 3rem;
+}
+
+.dropdown_trigger::before {
+  position: absolute;
+  content: "";
+  height: 0;
+  width: 0;
+  border-color: currentColor transparent transparent transparent;
+  border-style: solid;
+  border-width: 0.6rem 0.5rem 0 0.5rem;
+  top: 50%;
+  margin-top: -0.3rem;
+  right: 1rem;
+}
+
+.dropdown_contents {
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 2px 2px 5px rgba(0,0,0,.2);
+}
+
+.dropdown_contents a {
+  display: block;
+  padding: 0.25rem 0.5rem;
+  color: rebeccapurple;
+  text-decoration: none;
+  text-align: center;
+  padding-right: 1.6rem;
+}
+
+.dropdown_contents a:hover {
+  background-color: rebeccapurple;
+  color: #fff
+}
+
+.dropdown_contents ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* create default state: open / checked */
+/* ============================================================ */
+
+[type="checkbox"]:checked ~ .dropdown_trigger::before {
+border-color: transparent transparent currentColor transparent;
+border-style: solid;
+border-width: 0 0.5rem 0.6rem 0.5rem;
+}
+
+[type="checkbox"]:checked ~ .dropdown_contents {
+display: block;
+}
+
+/* create alternative state: closed / unchecked */
+/* ============================================================== */
+
+.dropdown_trigger::before {
+  transition: border .3s;
+  border-color: currentColor transparent transparent transparent;
+  border-style: solid;
+  border-width: 0.6rem 0.5rem 0 0.5rem;
+}
+
+.dropdown_contents {
+  display: none;
 }
