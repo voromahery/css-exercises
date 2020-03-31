@@ -70,6 +70,96 @@
         </div>
       </section>
 
+      <section>
+        <header>
+          <h2>Float-based layouts</h2>
+          <p>
+            Try to achieve this layout with the <code>div</code>s below.
+          </p>
+          <p>
+            <img src="images/layouts.png" alt>
+          </p>
+        </header>
+        <div class="example">
+          <div class="container">
+            <div class="header">
+              Header
+            </div>
+            <div class="article">
+              <div class="navigation">
+                Navigation
+              </div>
+              <div class="sidebar">
+                Sidebar
+              </div>
+              <div class="content">
+                Content
+              </div>
+            </div>
+            <div class="footer">
+              Footer
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <header>
+          <h2>Row-based layouts</h2>
+          <p>
+            Let's build a form layout using floats, like this example:
+          </p>
+          <p>
+            <img src="images/form-layout.png" alt>
+          </p>
+        </header>
+        <div class="example">
+          <form action="#" method="POST">
+            <header>
+              <h3>Tell us about your last job</h3>
+            </header>
+
+            <div class="form_toolbar">
+              <button type="submit" name="action" value="skip">Skip</button>
+            </div>
+
+            <div class="form_row">
+              <label for="field_title">Title</label>
+              <div class="field">
+                <input type="text" name="title" id="field_title">
+              </div>
+            </div>
+
+            <div class="form_row">
+              <label for="field_company">Company</label>
+              <div class="field">
+                <input type="text" name="company" id="field_company">
+              </div>
+            </div>
+
+            <div class="form_row_group">
+              <div class="form_row">
+                <label for="field_start_date">Start date</label>
+                <div class="field">
+                  <input type="date" name="start_date" id="field_start_date">
+                </div>
+              </div>
+              <div class="form_row">
+                <label for="field_end_date">End date</label>
+                <div class="field">
+                  <input type="date" name="end_date" id="field_end_date">
+                </div>
+              </div>
+            </div>
+
+            <div class="form_row form_actions">
+              <button type="submit" name="action" value="save">Save</button>
+            </div>
+
+          </form>
+        </div>
+      </section>
+
     </main>
   </body>
 </html>
