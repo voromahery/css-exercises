@@ -23,3 +23,10 @@ body > nav li {
 body > nav a {
   color: rgb(255, 255, 255);
 }
+
+@media (min-width: 104rem) {
+body nav {
+  right: 50%;
+  margin-right: -50rem;
+  }
+}
