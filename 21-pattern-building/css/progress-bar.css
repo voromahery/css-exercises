@@ -2,6 +2,7 @@
   list-style: none;
   padding: 0;
   margin: 0;
+  position: relative;
 }
 
 .a11y {
@@ -18,12 +19,6 @@
   2. Current step - has bold
   3. Future steps - spans
 */
-
-.progress_indicator a,
-.progress_indicator b,
-.progress_indicator span {
-}
-
 .progress_indicator li {
   counter-increment: step_number;
 }
@@ -61,10 +56,6 @@
 }
 
 /* Current step */
-.progress_indicator b {
-
-}
-
 .progress_indicator b::before {
   background-color: gold;
 }
@@ -82,52 +73,11 @@ opacity:  0.75;
 .progress_indicator::after {
   content: "";
   width: 0.25rem;
-  list-style: none;
   top: 1rem;
-  bottom: 1rem;
   left: 1.75rem;
+  bottom: 1rem;
   background-color: #ccc;
   position: absolute;
   margin-inline-start: -0.125rem;
-  z-index: -1rem;
-}
-/*
-.progress_indicator li [href="#/steps/1/"]
-.progress_indicator li .a11y {
-  width: 25%;
-  float: left;
-  font-size: 12px;
-  position: relative;
-  color: white;
-}
-
-.progress_indicator li [href="#/steps/1/"]::before,
-.progress_indicator li:nth-child(2) .a11y::before,
-.progress_indicator li:nth-child(3) .a11y::before,
-.progress_indicator li:nth-child(4) .a11y::before {
-  width: 30px;
-  height: 30px;
-  content: counter(step);
-  counter-increment: step;
-  line-height: 30px;
-  border: 2px solid rgb(110, 104, 104);
-  display: block;
-  text-align: center;
-  margin: 0 auto 10px auto;
-  border-radius: 50%;
-  background-color: white;
-}
-
-.progress_indicator li {
-  color: green;
-}
-
-.progress_indicator li .a11y ::before {
-  content: " ";
-  border-color: blue;
-}
-
-.progress_indicator li .a11y + li .a11y ::after {
-  content: " ";
-  background-color: blue;
+  z-index: -1;
 }
