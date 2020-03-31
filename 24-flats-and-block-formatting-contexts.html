@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Exercise 24</title>
+</head>
+
+<body>
+  <header>
+    <h1>Floats, flow and formating contexts</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Floats</h2>
+      <p>
+        We need to know the following properties:
+      </p>
+      <ul>
+        <li><code>float</code></li>
+        <li><code>clear</code></li>
+      </ul>
+      <ol>
+        <li>
+          <p>
+            their default values are <code>none</code>.
+          </p>
+        </li>
+        <li>
+          <p>
+            The possible values for <code>clear</code> are:
+          </p>
+          <ul>
+            <li><code>left</code></li>
+            <li><code>right</code></li>
+            <li><code>none</code></li>
+            <li><code>both</code></li>
+            <li><code>inherit</code></li>
+            <li><code>initial</code></li>
+          </ul>
+        </li>
+        <li>
+          <p>
+            The rule associated with a floated item in terms of source order is, the first item must be displayed first.
+          </p>
+        </li>
+        <li>
+          <p>
+            Yes, <code>float</code> can float other elements besides images.
+          </p>
+        </li>
+        <li>
+          <p>
+            Yes, there are a way to create a two-column layout with floats by using the value <code>left</code> and
+            <code>right</code> values.
+          </p>
+        </li>
+      </ol>
+    </section>
+    <section>
+      <h2>BFC(Block formating context)</h2>
+      <ul>
+        <li>
+          <p>
+            BFC is all about how the layout is rendered by using <code>float</code>.
+          </p>
+        </li>
+        <li>
+          <p>
+            We can <q>clear</q> a float creating a block formatting context on the parent, this is achieved by putting a
+            certain set of properties on the container. we can use <code>overflow</code> and <code>position</code>.
+          </p>
+        </li>
+        <li>
+          <p>Yes, I won't forget about Block Formatting Contexts tomorrow.</p>
+        </li>
+      </ul>
+    </section>
+  </main>
+</body>
+
+</html>
