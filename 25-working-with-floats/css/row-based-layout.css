@@ -1,0 +1,35 @@
+section:nth-of-type(4) h3 {
+  margin-block-end: 2rem;
+  margin-block-start: 0;
+  float: left;
+}
+
+section:nth-of-type(4) .form_toolbar {
+  float: right;
+}
+
+.form_row {
+  clear: both;
+  margin-bottom: 1rem;
+}
+
+section:nth-of-type(4) input {
+  margin-left: 1rem;
+}
+
+section:nth-of-type(4) .form_actions {
+  margin-left: 10rem;
+}
+
+
+section:nth-of-type(4) .form_row label {
+  text-align: right;
+  line-height: 39px;
+  width: 9rem;
+  float: left;
+
+}
+
+section:nth-of-type(4) .field {
+  margin-inline-start: 9rem;
+}
