@@ -1,0 +1,16 @@
+section:nth-child(2) .container img:nth-of-type(1),
+section:nth-child(2) .container img:nth-of-type(2) {
+  float: left;
+  width: 250px;
+  overflow: hidden;
+  display: block;
+  margin-right: 1rem;
+}
+
+section:nth-child(2) .container p {
+  display: flow-root;
+}
+
+section:nth-child(2) .container div{
+  clear: left;
+}
