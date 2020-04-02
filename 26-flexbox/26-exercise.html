@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Exercise 26</title>
+</head>
+
+<body>
+  <header>
+    <h1>Flexbox</h1>
+  </header>
+  <main>
+    <header>
+      <h2>
+        Introduction
+      </h2>
+    </header>
+    <p>
+      Flexbox helps us align and distribute items within a container, along one direction (or main axis) at a time.
+    </p>
+    <section>
+      <h2>Properties for container</h2>
+      <p>
+        To set up a flexbox, we need these properties:
+      </p>
+      <ul>
+        <li>
+          <code>display</code> value of <code>flex</code>: behaves like a block-level element itself and
+          <code>inline-flex</code> makes a container behaves like an <b>inline</b> element.
+        </li>
+        <li>
+          <code>flex-flow</code> is a <b>short-hand</b> property for <code>flex-wrap</code> and
+          <code>flex-direction</code>.
+          <ul>
+            <li>
+              <code>flex-wrap</code> defines how the flex-item is wrapped or not. It also set the direction of the text
+              which is wrapped.
+              <p>Its possible values are:</p>
+              <ul>
+                <li>nowrap(default value)</li>
+                <li>wrap</li>
+                <li>wrap-reversed</li>
+              </ul>
+            </li>
+          </ul>
+        <li>
+          <code>flex-direction</code> defines how the flex item is placed in a flex container
+          defining the <b>main axis</b> and the direction.
+          <p>
+            Its possible values are:
+          </p>
+          <ul>
+            <li>row</li>
+            <li>row-reverse</li>
+            <li>column</li>
+            <li>column-reverse</li>
+          </ul>
+        </li>
+        <li>
+          <code>align-item</code> sets the <code>align-self</code> value on all direct children as a group. In flex
+          box,
+          it controls the the alignment of an item on the <b>cross axis</b>.
+          <p>
+            Its possible values are:
+          </p>
+          <ul>
+            <li>stretch</li>
+            <li>center</li>
+            <li>start</li>
+            <li>end</li>
+          </ul>
+        </li>
+        <li>
+          <code>justify-content</code> control how the space between or around content item is along the <b>main
+            axis</b> of a flex container.
+          <p>
+            there are five possible value for this property:</p>
+          <ul>
+            <li>center</li>
+            <li>start</li>
+            <li>space-between</li>
+            <li>space-around</li>
+            <li>space-evenly</li>
+          </ul>
+        </li>
+        <li>
+          <code>align-content</code>(for wrapping flex container) sets the space between or around the flex item
+          along
+          the <b>cross axis</b>.
+          <p>
+            It has four possible values:
+          </p>
+          <ul>
+            <li>start</li>
+            <li>center</li>
+            <li>space-between</li>
+            <li>space-around</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Using flex and it's properties</h2>
+      <ul>
+        <li>
+          <code>flex</code> controls how a flex item grows or shrinks to fit the flex container. To make
+          <code>flex</code> shrink by its minimum content size, we need to set <code>min-height</code> or
+          <code>min-height</code>.
+          <ul>
+            <li><code>flex-grow</code> controls the growth(width and height) of a flex item.</li>
+            <li><code>flex-shrink</code> makes a flex item becomes smaller.</li>
+            <li><code>flex-basis</code> sets the initial main size of a flex item.</li>
+          </ul>
+        </li>
+        <li><code>align-self</code> controls the alignment of inside the grid area. This property doesn't apply to
+          <b>block-level boxes</b>, or to a <b>table cells</b>. It is ignored if flex box margin is <b>auto</b></li>
+        <li><code>order</code> property orders flex items inside a flex box or grid.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Terms or concepts</h2>
+      <ul>
+        <li><b>Flex container</b> is the container which expand or shrink an item to fill the available space.</li>
+        <li><b>Flex item</b> is an element which is inside the flex container.</li>
+        <li><b>Main axis</b> is the vertical axis or <b>y</b>.</li>
+        <li><b>Cross axis</b> is the horizontally axis which also known as <b>x</b></li>
+        <li><code>flex-start</code> is left side in the flex container for the <b>cross axis</b>.</li>
+        <li><code>flex-end</code> is the right side in the flex container for the <b>cross axis</b></li>
+      </ul>
+    </section>
+    <section>
+      <h2>The answers of the questions</h2>
+      <ol>
+        <li>The order of property values in the shorthand <code>flex</code> property:
+          <ol>
+            <li>flex-grow</li>
+            <li>flex-shrink</li>
+            <li>flex-basis</li>
+          </ol>
+          In the <code>flex: 2 1 auto</code>, <code>2</code> presents <b>flex-grow</b>, <code>1</code> is
+          <b>flex-shrink</b> and <code>auto</code> presents <b>flex-basis</b>.
+        </li>
+        <li>
+          We need <code>flex-wrap: wrap</code> or <code>row wrap</code> we can use <code>align-content</code>
+        </li>
+        <li>
+          Differnce between <code>align-content</code> and <code>align-items</code>:
+          <ul>
+            <li>
+              <code>align-content</code> align the content inside the flex box and control the space between items.
+            </li>
+            <li>
+              <code>align-items</code> changes the items height or position inside the flex box.
+            </li>
+          </ul>
+        <li>
+          The flex item's <code>align-self</code> overrides the other.
+        </li>
+        <li>
+          <code>min-width</code> is similar to <code>flex-basis</code>.
+        </li>
+        <li>
+          There are two ways to change the ordering of flex items within a flex container. One is done on each flex item
+          by using the order property. The <code>flex-direction:</code><code>row-reverse</code> or
+          <code>column-reverse</code> can change the whole order of the flex items at the container level.
+        </li>
+        <li>
+          If we want some space between each of our three flex items in a flex column, we can use
+          <code>flex-wrap: wrap</code>, <code>justify-content: space-between</code> and
+          <code>justify-content: space-around</code>.
+        </li>
+      </ol>
+    </section>
+  </main>
+</body>
+
+</html>
