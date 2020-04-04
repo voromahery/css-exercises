@@ -8,6 +8,7 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .a11y {
@@ -21,6 +22,3 @@ body {
   border: 0;
 }
 
-main article {
-  margin: 1rem
-}
