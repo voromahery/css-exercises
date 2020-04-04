@@ -1,3 +1,11 @@
 article {
   max-width: 50rem;
+  text-align: center;
+}
+
+main article {
+  margin: 1rem;
+  margin-left: 45%;
+  margin-right: 45%;
+
 }
