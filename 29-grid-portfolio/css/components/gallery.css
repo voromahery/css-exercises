@@ -1,6 +1,6 @@
 /*
   The gallery component is a list of grid-based tiles (`li`),
-  occupying all 5 columns of the grid.
+  with 6 columns, each having an inner width of 145px.
 */
 .gallery {
   list-style: none;
