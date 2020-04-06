@@ -5,6 +5,10 @@ body > footer {
   padding-block-start: 0.75rem;
 }
 
+body > footer p {
+  margin: 0;
+}
+
 body > footer a {
   color: #fff;
 }
