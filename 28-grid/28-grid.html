@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Exercise 28</title>
+</head>
+
+<body>
+  <header>
+    <h1>Grid layout</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Basic properties</h2>
+      <ul>
+        <li>
+          <code>display: grid</code> makes the grid items into rows with their full width by default.
+        </li>
+        <li>
+          <code>display: inline-grid</code> present the grid into column and the width of the rows are controled by the
+          width of the contents.
+        </li>
+        <li>
+          <code>grid</code> it is a <b>shorthand</b> property that sets <code>grid-template-columns</code>,
+          <code>grid-template-rows</code>, <code>grid-template-areas</code>, <code>grid-auto-rows</code>,
+          <code>grid auto-columns</code> and <code>grid-auto-flows</code>.
+          <ul>
+            <li>
+              <code>grid-template-columns</code> defines the size of items in a column.
+            </li>
+            <li>
+              <code>grid-template-rows</code> resizes items in a row
+            </li>
+            <li>
+              <code>grid-gap</code> sets the space between each rows or columns.
+              <ul>
+                <li>
+                  <code>grid-row-gap</code> sets gap between each rows.
+                </li>
+                <li>
+                  <code>grid-column-gap</code> sets gap between two or more columns.
+                </li>
+              </ul>
+            </li>
+          </ul>
+        <li>
+          <code>grid-auto-columns</code> makes a grid wider.
+        </li>
+        <li>
+          <code>grid-auto-rows</code> resizes the height of a grid.
+        </li>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Other properties apply to the grid</h2>
+      <p>
+        Some of these properties tell a grid item where to start and end in terms of columns and rows.
+      </p>
+      <ul>
+        <li>
+          <code>grid-column</code> is a <b>shorthand</b> property for <code>grid-column-start</code> and
+          <code>grid-column-end</code>.
+          <ul>
+            <li>
+              <code>grid-column-start></code> specifies where to start in the grid column.
+            </li>
+            <li>
+              <code>grid-column-end</code> specifies the end position of a grid item in a grid column.
+            </li>
+          </ul>
+        </li>
+        <li>
+          <code>grid-row</code> is a <b>shorthand</b> property for <code>grid-row-start</code> and
+          <code>grid-row-end</code>.
+        </li>
+        <ul>
+          <li>
+            <code>grid-row-start</code> specifies where to start within the grid row.
+          </li>
+          <li>
+            <code>grid-row-end</code> specifies the end position of a grid item in a grid row.
+          </li>
+        </ul>
+      </ul>
+      <p>
+        We can also start naming certain areas in the whole grid
+      </p>
+      <p>
+        <code>grid-template-areas</code>
+      </p>
+      <p>
+        ...and then assign a grid-item to a named area:
+      </p>
+      <p>
+        <code>grid-area</code>
+      </p>
+      <p>
+        Lastly, we can change the algorithm <abbr title="cascade-stylesheet">CSS</abbr> grid uses to fill the available
+        space using <code>grid-auto-flow</code>.
+      </p>
+    </section>
+    <section>
+      <h2>Keywords</h2>
+      <ul>
+        <li>
+          <code>repeat()</code> used in grid rows or columns to present a repeated fragment.
+        </li>
+        <li>
+          <code>minmax()</code> defines the size of a grid equal to max or less and equal to min or greater.
+        </li>
+        <li>
+          <code>max-content</code>
+        </li>
+        <li>
+          <code>min-content</code>
+        </li>
+        <li>
+          <code>fr</code>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>The answers of the questions</h2>
+      <ol>
+        <li>By default, a grid has one column</li>
+        <li>
+          The difference between Flexbox and Grid:
+          <ul>
+            <li>
+              <b>Flexbox</b> is used to design a layout in one dimension. It means, row or column
+            </li>
+            <li>
+              <b>Grid</b> used to desing both rows or columns at the same time.
+            </li>
+          </ul>
+        </li>
+        <li>I would use <b>flexbox</b> rather than <b>grid</b> when I want to design a single dimension layout.
+        </li>
+        <li>
+          I would use <b>grid</b> rather than <b>flexbox</b> when I want to design a table-like layout.
+        </li>
+        <li>A more concise way to write out the following: <code>grid-template-columns: 10rem 10rem 10rem 10rem;</code>
+          is: <code>grid-template-columns: repeat(4, 10rem)</code>
+        </li>
+        <li>
+          We can use <code>grid-template-rows</code> to specify a minimum height for a grid row, but still allow the row
+          to increase in height if its content is too tall.
+        </li>
+      </ol>
+    </section>
+  </main>
+</body>
+
+</html>
