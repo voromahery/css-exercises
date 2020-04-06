@@ -1,0 +1,8 @@
+body > footer {
+  color: #ccc;
+  font-size: 0.75rem;
+}
+
+body > footer a {
+  color: #fff;
+}
