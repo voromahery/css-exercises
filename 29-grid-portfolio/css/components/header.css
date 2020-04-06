@@ -3,7 +3,7 @@ body > header {
 }
 
 body > header h1 {
-  border-bottom: 1px solid #4d4d4d;
+  border-block-end: 1px solid #4d4d4d;
 }
 
 body > header a {
@@ -34,5 +34,5 @@ body > header ul {
 }
 
 body > header li {
-  border-bottom: 1px solid #4d4d4d;
+  border-block-end: 1px solid #4d4d4d;
 }

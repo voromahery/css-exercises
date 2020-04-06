@@ -9,6 +9,8 @@ html {
 body {
   font-size: 100%;
   margin: 0;
+  margin-inline-start: 45px;
+  max-width: 960px;
 }
 
 figure {
