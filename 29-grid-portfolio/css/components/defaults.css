@@ -23,8 +23,7 @@ img {
   max-width: 100%;
 }
 
-.a11y,
-main > header {
+.a11y {
   position: absolute;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
@@ -39,4 +38,8 @@ h1,
 h2,
 h3 {
   margin: 0;
+}
+
+abbr {
+  text-decoration: none;
 }
