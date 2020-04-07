@@ -22,7 +22,8 @@ body > footer a:hover {
 }
 
 body > footer p:last-child {
-
+  position: relative;
+  right: 2rem;
 }
 
 body > footer p:last-child a {
