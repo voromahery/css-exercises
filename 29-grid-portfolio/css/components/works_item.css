@@ -4,6 +4,7 @@
 
 .works_item_header {
   color: #ccc;
+  margin-right: 1rem;
 }
 
 .works_item_content {
@@ -18,6 +19,9 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  display: inline-grid;
+  grid-auto-flow: column;
+  margin-left: -1rem;
 }
 
 .works_item_navigation a {
@@ -30,4 +34,10 @@
 .works_item_navigation a b,
 .works_item_navigation a:hover {
   color: #fff18f;
+}
+
+.works_item {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 165px 49rem;
 }
