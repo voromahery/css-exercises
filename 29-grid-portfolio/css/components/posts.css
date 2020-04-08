@@ -1,8 +1,8 @@
 .post {
-display: grid;
-grid-template-areas: "blank header header header header header"
+  display: grid;
+  grid-template-areas: "blank header header header header header"
                       "footer content content content content content";
-margin-top:2rem
+  margin-top:2rem
 }
 
 .post a {
@@ -69,4 +69,20 @@ grid-area: header;
   width: 1rem;
   height: 1px;
   background-color: #4d4d4d;
+}
+
+.post:nth-of-type(2n) .image_half,
+.post:nth-of-type(2n+1) .image_half {
+  width: calc((3* 145px) + (2* 15px));
+  margin-bottom: 1rem;
+}
+
+.post:nth-of-type(2n) .image_half{
+  float: left;
+  margin-right: 1rem;
+}
+
+.post:nth-of-type(2n+1) .image_half{
+  float: right;
+  margin-left: 1rem;
 }
