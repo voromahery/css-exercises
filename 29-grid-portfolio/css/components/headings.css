@@ -9,6 +9,8 @@
   color: #ccc;
   padding-block-end: 35px;
   border-block-end: 1px solid #4d4d4d;
+  display: grid;
+  grid-column: 3 / 6;
 }
 
 .heading_introduction {
