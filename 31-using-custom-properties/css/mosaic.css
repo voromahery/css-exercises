@@ -1,0 +1,8 @@
+.row a                 { background-color: hsla(200deg, 100%, 50%, 0.1);}
+.row a + a             { background-color: hsla(200deg, 100%, 50%, 0.2);}
+.row a + a + a         { background-color: hsla(200deg, 100%, 50%, 0.3);}
+.row a + a + a + a     { background-color: hsla(200deg, 100%, 50%, 0.4);}
+.row a + a + a + a + a { background-color: hsla(200deg, 100%, 50%, 0.5);}
+/*
+  … etc …
+*/
