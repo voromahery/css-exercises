@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Exercise 30</title>
+</head>
+
+<body>
+  <header>
+    <h1>Custom Properties</h1>
+  </header>
+  <main>
+    <ol>
+      <li>
+        When defining a Custom Property's name, we have to use <code>--</code> or double dashes as a prefix.
+      </li>
+      <li>
+        We can't use <code>*</code>, <code>#</code>, <code>/</code>, <code>\</code>, <code>(</code> and <code>)</code>.
+      </li>
+      <li>
+        We can use <b>numbers</b> or <b>a number with unit</b>, <b>keywords</b> such as color annotations and variation
+        of fonts to assign to a new Custom Property.
+      </li>
+      <li>
+        <p>
+          It is useful to create Custom Properties using the <code>:root</code> or <code>html</code> if we want to style
+          globally all <abbr title="hypertext-markup-language">HTML</abbr> elements within a document.
+        </p>
+        <p>
+          It isn't useful when we want to style specifically each element in a document.
+        </p>
+      </li>
+      <li>
+        <p>
+          After we've defined a new Custom Property, we can use it as a value of another properties in a function.
+        </p>
+        <p>
+          The function that we use is <code>var(custom property name)</code>.
+        </p>
+      </li>
+      <li>
+        The ways that override or change a Custom Property are:
+        <ul>
+          <li>
+            <b>importance</b> by using a keyword <code>important!</code>
+          </li>
+          <li>
+            <b>Specificity</b> of the selector by using <code>ID</code>
+          </li>
+          <li><b>Source Order</b> of an element</li>
+        </ul>
+      </li>
+      <li>
+        Custom Properties are useful because they help us to write less code and to avoid repetition of a code.
+      </li>
+      <li>
+        The only aspect (or part) of <abbr title="cascading-style-sheet">CSS</abbr> syntax that we can use Custom
+        Properties for is the function <code>calc()</code>.
+      </li>
+    </ol>
+  </main>
+</body>
+
+</html>
