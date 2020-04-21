@@ -1,5 +1,5 @@
 .about {
   display: grid;
-  grid-template-columns: 165px 320px 470px;
+  grid-template-columns: 165px 145px 470px;
   grid-template-rows: repeat(3, 200px);
 }
