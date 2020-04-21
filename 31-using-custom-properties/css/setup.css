@@ -9,6 +9,10 @@ body {
   margin: 2rem;
 }
 
+img {
+  max-width: 100%;
+}
+
 body > header {
   background-color: #333;
   color: #fff;
@@ -24,10 +28,6 @@ section + section {
   margin-block-start: 4rem;
 }
 
-section header img {
-  max-width: 100%;
-}
-
 .example {
   border: 1px solid #ccc;
   padding: 1rem;
@@ -37,8 +37,8 @@ section header img {
   margin-block-start: 2rem;
 }
 
-#c_and_i img {
-  max-width: 200px;
+img {
+  width: 200px;
 }
 
 .table {
