@@ -73,17 +73,17 @@
   --hue: calc(var(--hue-multiplier) * var(--base-hue));
   --alpha: calc(var(--alpha-multiplier) * var(--base-opacity));
   background-color: hsla(
-    var(--hue),
-    var(--base-saturation),
-    var(--base-lightness),
-    var(--alpha)
+                          var(--hue),
+                          var(--base-saturation),
+                          var(--base-lightness),
+                          var(--alpha)
     );
 }
 
 
 .table > .row:nth-of-type(1) {
---hue-multiplier: 1;
-}
+    --hue-multiplier: 1;
+  }
 
 .table > .row:nth-of-type(2) {
   --hue-multiplier: 2;
