@@ -14,10 +14,10 @@
   <main>
     <ol>
       <li>
-        When defining a Custom Property's name, we have to use <code>--</code> or double dashes as a prefix.
+        When defining a Custom Property's name, we have to use <code>--</code> or double dashes as a prefix, <b>alpha-numeric</b> and <b>number</b>.
       </li>
       <li>
-        We can't use <code>*</code>, <code>#</code>, <code>/</code>, <code>\</code>, <code>(</code> and <code>)</code>.
+        We can't use <b>space</b>, <b>period(.)</b>.
       </li>
       <li>
         We can use <b>numbers</b> or <b>a number with unit</b>, <b>keywords</b> such as color annotations and variation
@@ -25,11 +25,10 @@
       </li>
       <li>
         <p>
-          It is useful to create Custom Properties using the <code>:root</code> or <code>html</code> if we want to style
-          globally all <abbr title="hypertext-markup-language">HTML</abbr> elements within a document.
+          It is useful to create Custom Properties using the <code>:root</code> or <code>html</code> if we want each child element inherit all of the <abbr title="hypertext-markup-language">HTML</abbr> property value of the parent element.
         </p>
         <p>
-          It isn't useful when we want to style specifically each element in a document.
+          It isn't useful when we want to change the property value of an element.
         </p>
       </li>
       <li>
@@ -44,20 +43,24 @@
         The ways that override or change a Custom Property are:
         <ul>
           <li>
-            <b>importance</b> by using a keyword <code>important!</code>
+            Using @media or media query
           </li>
           <li>
-            <b>Specificity</b> of the selector by using <code>ID</code>
+            Using selector basis
           </li>
-          <li><b>Source Order</b> of an element</li>
+          <li>Editing or changing the value</li>
         </ul>
       </li>
       <li>
-        Custom Properties are useful because they help us to write less code and to avoid repetition of a code.
+        Custom Properties are useful because they help us to:
+        <ul>
+          <li>write less code</li>
+          <li>reduce repetition</li>
+          <li>one point of control</li>
+        </ul>
       </li>
       <li>
-        The only aspect (or part) of <abbr title="cascading-style-sheet">CSS</abbr> syntax that we can use Custom
-        Properties for is the function <code>calc()</code>.
+        <b>Declaration block</b> is the only aspect (or part) of CSS syntax that we can use Custom Properties.
       </li>
     </ol>
   </main>
