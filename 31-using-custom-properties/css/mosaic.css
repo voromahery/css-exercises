@@ -8,9 +8,10 @@
 /*
   … etc …
 
-  This would get crazy if I had to write out each and every anchor within each row, setting the unique `hsla()` per anchor.
+  This would get crazy if I had to write out each and every anchor within each row, setting the unique ` hsla()` per anchor.
 */
 :root {
+  /*
   --orange:hsl(36deg, 100%, 50%);
   --yellow:hsl(72deg,100%, 50%);
   --green:hsl(108deg, 100%, 50%);
@@ -21,84 +22,101 @@
   --purple:hsl(288deg, 100%, 50%);
   --pink:hsl(324deg, 100%, 50%);
   --red: hsl(360deg, 100%, 50%);
+  */
+  --base-hue: 36deg;
+  --base-opacity: 0.1;
+  --base-saturation: 100%;
+  --base-lightness: 50%;
 }
 
 .table > .row > a:nth-of-type(1) {
-  opacity: 0.1;
+  --alpha-multiplier: 1;
 }
 
 .table > .row > a:nth-of-type(2) {
-  opacity: 0.2;
+  --alpha-multiplier: 2;
 }
 
 .table > .row > a:nth-of-type(3) {
-  opacity: 0.3;
+  --alpha-multiplier: 3;
 }
 
 .table > .row > a:nth-of-type(4) {
-  opacity: 0.4;
+  --alpha-multiplier: 4;
 }
 
 .table > .row > a:nth-of-type(5) {
-  opacity: 0.5;
+  --alpha-multiplier: 5;
 }
 
 .table > .row > a:nth-of-type(6) {
-  opacity: 0.6;
+  --alpha-multiplier: 6;
 }
 
 .table > .row > a:nth-of-type(7) {
-  opacity: 0.7;
+  --alpha-multiplier: 7;
 }
 
 .table > .row > a:nth-of-type(8) {
-  opacity: 0.8;
+  --alpha-multiplier: 8;
 }
 
 .table > .row > a:nth-of-type(9) {
-  opacity: 0.9;
+  --alpha-multiplier: 9;
 }
 
 .table > .row > a:nth-of-type(10) {
-  opacity: 1;
+  --alpha-multiplier: 10;
 }
 
-.table > .row:nth-of-type(1) > a {
-  background-color: var(--orange);
+.row a {
+  --hue: calc(var(--hue-multiplier) * var(--base-hue));
+  --alpha: calc(var(--alpha-multiplier) * var(--base-opacity));
+  background-color: hsla(
+    var(--hue),
+    var(--base-saturation),
+    var(--base-lightness),
+    var(--alpha)
+    );
 }
 
-.table > .row:nth-of-type(2) > a {
-  background-color: var(--yellow);
+
+.table > .row:nth-of-type(1) {
+--hue-multiplier: 1;
 }
 
-.table > .row:nth-of-type(3) > a {
-  background-color: var(--green);
+.table > .row:nth-of-type(2) {
+  --hue-multiplier: 2;
 }
 
-.table > .row:nth-of-type(4) > a {
-  background-color: var(--green-yellow);
+.table > .row:nth-of-type(3) {
+  --hue-multiplier: 3;
 }
 
-.table > .row:nth-of-type(5) > a {
-  background-color: var(--aqua);
+.table > .row:nth-of-type(4) {
+  --hue-multiplier: 4;
 }
 
-.table > .row:nth-of-type(6) > a {
-  background-color: var(--light-blue);
+.table > .row:nth-of-type(5) {
+  --hue-multiplier: 5;
 }
 
-.table > .row:nth-of-type(7) > a {
-  background-color: var(--blue);
+.table > .row:nth-of-type(6) {
+  --hue-multiplier: 6;
 }
 
-.table > .row:nth-of-type(8) > a {
-  background-color: var(--purple);
+.table > .row:nth-of-type(7) {
+  --hue-multiplier: 7;
 }
 
-.table > .row:nth-of-type(9) > a {
-  background-color: var(--pink);
+.table > .row:nth-of-type(8) {
+  --hue-multiplier: 8;
 }
 
-.table > .row:nth-of-type(10) > a {
-  background-color: var(--red);
+.table > .row:nth-of-type(9) {
+  --hue-multiplier: 9;
+}
+
+.table > .row:nth-of-type(10) {
+  --hue-multiplier: 10;
 }
