@@ -11,18 +11,6 @@
   This would get crazy if I had to write out each and every anchor within each row, setting the unique ` hsla()` per anchor.
 */
 :root {
-  /*
-  --orange:hsl(36deg, 100%, 50%);
-  --yellow:hsl(72deg,100%, 50%);
-  --green:hsl(108deg, 100%, 50%);
-  --green-yellow: hsl(144deg, 100%, 50%);
-  --aqua: hsl(180deg, 100%, 50%);
-  --light-blue: hsl(216deg, 100%, 50%);
-  --blue: hsl(252deg, 100%, 50%);
-  --purple:hsl(288deg, 100%, 50%);
-  --pink:hsl(324deg, 100%, 50%);
-  --red: hsl(360deg, 100%, 50%);
-  */
   --base-hue: 36deg;
   --base-opacity: 0.1;
   --base-saturation: 100%;
