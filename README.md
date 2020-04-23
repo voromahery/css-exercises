@@ -43,3 +43,5 @@ A list of practical exercises to use as we learn CSS.
 - [30: Custom Properties](30-custom-properties/index.md)
 - [31: Custom Properties practicals](30-using-custom-properties/index.md)
 - [32: Calc function](32-calc/index.md)
+- [33: Calc function practicals](33-using-calc/index.md)
+- [34: Transitions](34-transitions/index.md)
