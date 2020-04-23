@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="css.css" rel="stylesheet">
+  <title>Exercise 32</title>
+</head>
+
+<body>
+  <header>
+    <h1>The Calc function</h1>
+  </header>
+  <main>
+    <ol>
+      <li><code>calc()</code> function supports number, second, minute, frequency, fraction, keywords value.</li>
+      <li>
+        To control the mathematical order of operation (PEDMAS / BODMAS) in the function, so that something like
+        <code>calc(2 + 3 * 4)</code> doesn't equal <code>14</code>, when it is instead meant to equal <code>20</code> is,
+        by putting the <code>3 * 4</code> inside <b>brackets</b> like <code>calc((2 + 3) * 4)</code>.
+      </li>
+      <li>
+        We can use a <code>calc()</code> function to convert one type of unit to another type of unit.
+      </li>
+      <li>
+        If we want to convert a unitless number to a unit value, we have to multiply or divide that number with
+        <code>1</code> with a unit.
+      </li>
+      <li>
+        The <i>plus</i> and <i>minus</i> operators inside the function need spaces around them because if not, the
+        <code>calc()</code> function considers it as a <b>positive</b> value for the <i>plus</i> and <b>negative</b> for
+        the <i>minus</i>.
+      </li>
+      <li>
+        We need to <b>multiply</b> or <b>divide</b> a value into <code>-1</code> if we want to convert a value into a
+        negative value.
+      </li>
+      <li>
+        <code>calc()</code> function works with colour values such as a light red plus a light red should equal a darker red.
+      </li>
+    </ol>
+  </main>
+</body>
+
+</html>
