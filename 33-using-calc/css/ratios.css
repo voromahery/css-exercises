@@ -1,15 +1,33 @@
+:root {
+  --convertion-rate: 100%;
+  --width: ;
+  --height: ;
+}
+
+.ratio{
+  padding-block-start: calc(var(--height) / var(--width) * var(--convertion-rate));
+}
+
 #ratio_2_1 {
   padding-block-start: 50%;
+  --width: 2;
+  --height: 1;
 }
 
 #ratio_16_9 {
   padding-block-start: 56.25%;
+  --width: 9;
+  --height: 16;
 }
 
 #ratio_4_3 {
   padding-block-start: 75%;
+  --width: 3;
+  --height: 4;
 }
 
 #ratio_1_1 {
   padding-block-start: 100%;
+  --width: 1;
+  --height: 1;
 }
