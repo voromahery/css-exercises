@@ -49,7 +49,7 @@
             </li>
             <li>
               <code>duration</code> specifies how many seconds and milliseconds it takes for an animated object to
-              complete.
+              complete from the starting point and the end.
             </li>
           </ul>
         </li>
@@ -161,11 +161,14 @@
           </ul>
         </li>
         <li>
-          We can select more than one property to transition at a time if the parent is the <b>trigger</b>.
+          We can select more than one property to transition at a time by using
+          <code>transition: propery, duration, delay, timing-function</code> for all of them, <b>comma</b> separated and
+          <code>all</code> keyword.
         </li>
         <li>
-          If we want to set or define the desired transition, we need to specify which property should be animated, the
-          delay, timing function and duration.
+          If we want to set or define the desired transition, we should use <code>pseudo-classes</code>,
+          <code>active</code>, <code>:hover</code>, <code>:target, <code></code>:checked</code>, <code>:focus</code>
+          selector which is different from anothers like using <code>class</code> and <code>id</code>.
         </li>
         <li>
           We need transitions especially when we are telling story, to show the progress of one thing.
@@ -174,8 +177,7 @@
           Transitions can be a problem for something that we need urgently.
         </li>
         <li>
-          Transitions don't work reliably with the auto keyword being one of the end states because some browsers don't
-          really support transitions.
+          Transitions don't work reliably with the auto keyword being one of the end states because the browsers need number to calculate but <code>auto</code> isn't a number.
         </li>
         <li>
           To stagger transitions (i.e. make a number of child elements all start at different times), we have to make
