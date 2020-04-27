@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Exerccise 34</title>
+</head>
+
+<body>
+  <header>
+    <h1>Transition</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Definition:</h2>
+      <p>
+        The word transition means to <b>change from one state to another</b>. In CSS, these transitions occur per
+        element, per property
+      </p>
+      <ol>
+        <li>
+          The first state is the initial state, or how the element was to begin with.
+        </li>
+        <li>
+          The second state, or target state, is what the element will become.
+          Transitions take care of all the intermediate stages between those two states.
+        </li>
+      </ol>
+    </section>
+    <section>
+      <h2>Research:</h2>
+      <ol>
+        <li>
+          The <code>transition</code> property is a <b>shorthand property</b> which includes
+          <code>transition-property</code>, <code>transition-duration</code>, <code>timing-function</code> and
+          <code>delay</code>.
+        </li>
+        <li>
+          The difference between <code>timing function</code>, <code>delay</code> and <code>duration</code>:
+          <ul>
+            <li>
+              <code>timing function</code> is a function which defines the speed of an animated object.
+            </li>
+            <li>
+              <code>delay</code> defines how many seconds or milliseconds it takes for an animated object to wait before
+              it animated.
+            </li>
+            <li>
+              <code>duration</code> specifies how many seconds and milliseconds it takes for an animated object to
+              complete.
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>
+            The <abbr title="cascade-stylesheet">CSS</abbr> properties which are animatable are:
+          </p>
+          <ul>
+            <li>background-color</li>
+            <li>background-position</li>
+            <li>background-size</li>
+            <li>border</li>
+            <li>border-bottom</li>
+            <li>border-bottom-color</li>
+            <li>border-bottom-left-radius</li>
+            <li>border-bottom-right-radius</li>
+            <li>border-bottom-width</li>
+            <li>border-color</li>
+            <li>border-left</li>
+            <li>border-left-color</li>
+            <li>border-left-width</li>
+            <li>border-right</li>
+            <li>border-right-color</li>
+            <li>border-right-width</li>
+            <li>border-spacing</li>
+            <li>border-top</li>
+            <li>border-top-color</li>
+            <li>border-top-left-radius</li>
+            <li>border-top-right-radius</li>
+            <li>border-top-width</li>
+            <li>bottom</li>
+            <li>box-shadow</li>
+            <li>clip</li>
+            <li>color</li>
+            <li>column-count</li>
+            <li>column-gap</li>
+            <li>column-rule</li>
+            <li>column-rule-color</li>
+            <li>column-rule-width</li>
+            <li>column-width</li>
+            <li>columns</li>
+            <li>filter</li>
+            <li>flex</li>
+            <li>flex-basis</li>
+            <li>flex-grow</li>
+            <li>flex-shrink</li>
+            <li>font</li>
+            <li>font-size</li>
+            <li>font-size-adjust</li>
+            <li>font-stretch</li>
+            <li>font-weight</li>
+            <li>grid</li>
+            <li>grid-area</li>
+            <li>grid-auto-columns</li>
+            <li>grid-auto-flow</li>
+            <li>grid-auto-rows</li>
+            <li>grid-column</li>
+            <li>grid-column-end</li>
+            <li>grid-column-gap</li>
+            <li>grid-column-start</li>
+            <li>grid-gap</li>
+            <li>grid-row</li>
+            <li>grid-row-end</li>
+            <li>grid-row-gap</li>
+            <li>grid-row-start</li>
+            <li>grid-template</li>
+            <li>grid-template-areas</li>
+            <li>grid-template-columns</li>
+            <li>grid-template-rows</li>
+            <li>height</li>
+            <li>left</li>
+            <li>letter-spacing</li>
+            <li>line-height</li>
+            <li>margin</li>
+            <li>margin-bottom</li>
+            <li>margin-left</li>
+            <li>margin-right</li>
+            <li>margin-top</li>
+            <li>max-height</li>
+            <li>max-width</li>
+            <li>min-height</li>
+            <li>min-width</li>
+            <li>object-position</li>
+            <li>opacity</li>
+            <li>order</li>
+            <li>outline</li>
+            <li>outline-color</li>
+            <li>outline-offset</li>
+            <li>outline-width</li>
+            <li>padding</li>
+            <li>padding-bottom</li>
+            <li>padding-left</li>
+            <li>padding-right</li>
+            <li>padding-top</li>
+            <li>perspective</li>
+            <li>perspective-origin</li>
+            <li>right</li>
+            <li>text-decoration-color</li>
+            <li>text-indent</li>
+            <li>text-shadow</li>
+            <li>top</li>
+            <li>transform</li>
+            <li>transform-origin</li>
+            <li>vertical-align</li>
+            <li>visibility</li>
+            <li>width</li>
+            <li>word-spacing</li>
+            <li>z-index</li>
+          </ul>
+        </li>
+        <li>
+          We can select more than one property to transition at a time if the parent is the <b>trigger</b>.
+        </li>
+        <li>
+          If we want to set or define the desired transition, we need to specify which property should be animated, the
+          delay, timing function and duration.
+        </li>
+        <li>
+          We need transitions especially when we are telling story, to show the progress of one thing.
+        </li>
+        <li>
+          Transitions can be a problem for something that we need urgently.
+        </li>
+        <li>
+          Transitions don't work reliably with the auto keyword being one of the end states because some browsers don't
+          really support transitions.
+        </li>
+        <li>
+          To stagger transitions (i.e. make a number of child elements all start at different times), we have to make
+          the value of <code>delay</code> different.
+        </li>
+      </ol>
+    </section>
+  </main>
+</body>
+
+</html>
