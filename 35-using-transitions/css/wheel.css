@@ -36,7 +36,11 @@
   height: var(--wheel-diameter);
   width: var(--wheel-diameter);
   position: relative;
+  right: 100%;
+  transition: border, 10s, 0s, 10s;
 }
+
+
 
 .spoke {
   position: absolute;
@@ -48,7 +52,7 @@
   background-color: #888;
 }
 
-.spoke:nth-of-type(2) { transform: rotate(45deg); }
-.spoke:nth-of-type(3) { transform: rotate(90deg); }
-.spoke:nth-of-type(4) { transform: rotate(135deg); }
+.spoke:nth-of-type(2) { transform: rotate(45deg);}
+.spoke:nth-of-type(3) { transform: rotate(90deg);}
+.spoke:nth-of-type(4) { transform: rotate(135deg);}
 
