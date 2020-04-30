@@ -39,6 +39,36 @@
           </div>
         </div>
       </section>
+      <section>
+        <header>
+          <h2>3D transforms</h2>
+          <p>Let's build a 3D dice (a cube).</p>
+          <p>
+            <img src="images/cube.png" alt>
+          </p>
+          <p>The cube's size should be <code>var(--face-size)</code> * <code>var(--face-size)</code> * <code>var(--face-size)</code>.</p>
+          <ol>
+            <li>Start by placing the 1 and 6 on either sides of a 3D cube by using <code>translateZ()</code>.</li>
+            <li>You can click the checkbox to 'spin' the cube. This will allow you to see how your transforms are working along the way.</li>
+            <li>Then try rotating the 2 and 5 along the correct axis (X, Y or Z?), and translating them into the correct position, either before or after the rotate.</li>
+            <li>Lastly, use a similar technique for the 3 and 4, but over different axes.</li>
+          </ol>
+        </header>
+        <div class="example">
+          <div id="dice-scene" class="scene">
+            <input type="checkbox" id="dice-animate">
+            <label for="dice-animate">Spin the dice</label>
+            <div id="dice">
+              <div class="face" id="face-1"></div>
+              <div class="face" id="face-2"></div>
+              <div class="face" id="face-3"></div>
+              <div class="face" id="face-4"></div>
+              <div class="face" id="face-5"></div>
+              <div class="face" id="face-6"></div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- <section>
         <header>
           <h2></h2>
