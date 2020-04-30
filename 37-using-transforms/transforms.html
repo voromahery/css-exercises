@@ -13,6 +13,31 @@
     <main>
       <section>
         <header>
+          <h2>Using <code>translate()</code> to show or hide</h2>
+          <p>We can use <code>translateX</code> to hide a menu away behind the user-interface, when the checkbox is unchecked.</p>
+          <p>But when the user clicks a label that toggles the checkbox, we can use that new checkbox state to act as the open signifier for the menu.</p>
+          <p>When that happens, we reset the nav's <code>translateX</code>.</p>
+          <p><b>If you have some time left over:</b></p>
+          <ul>
+            <li>Try use <code>scale()</code> instead of <code>translateX()</code></li>
+          </ul>
+        </header>
+        <div class="example">
+          <div class="user-interface">
+            <label for="checkbox-menu">Menu</label>
+            <input type="checkbox" id="checkbox-menu">
+            <nav>
+              <ul>
+                <li><a href="#/">Home</a></li>
+                <li><a href="#/about">About</a></li>
+                <li><a href="#/contact">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </section>
+      <section>
+        <header>
           <h2>Mixing Rotations with Translates</h2>
           <p>Let's simulate a solar system by placing the Earth off to the right the Sun, the moon in orbit around the Earth, off to the right too, like this image:</p>
           <p>
