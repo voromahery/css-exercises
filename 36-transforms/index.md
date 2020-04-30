@@ -32,11 +32,11 @@ Let's look a little deeper at `transform`.
 
 1. What problems can you run in to when overriding a `transform` in a more specific selector?
 
---> Every property which relates to the `transform` doesn't work.
+--> The default value is still applied.
 
 1. If we want to go 3D, we need to use another property to set the view over the scene. What is that property?
 
---> We need `position: absolute`.
+--> We need `transform: translate3d()`, `perspective()` and `transform-style: presence3d`.
 
 1. We can control what the transform uses in its calculations in terms of the box model. What property can we use to adjust this?
 
