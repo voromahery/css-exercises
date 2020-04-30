@@ -29,6 +29,9 @@
   position: absolute;
   background-image: radial-gradient(#ddd 5%, #999 20%, #555 100%);
   transform-origin: calc(var(--ball-diameter) / 2) calc(var(--ball-string-length) * -1);
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-delay: 0s;
 }
 
 .metal-ball:nth-of-type(1) {--hanging-offset:-1;}
@@ -47,15 +50,27 @@
 }
 
 .pendulum .metal-ball:nth-of-type(1) {
-  transform: rotate(20deg);
+  transform: rotate(30deg);
+  transition-property: transform;
+  transition-duration: ease-out;
+  transition-delay: .6s;
 }
 .pendulum:hover .metal-ball:nth-of-type(1) {
   transform: rotate(0deg);
+  transition-property: transform;
+  transition-duration: ease-in;
+  transition-delay: 0s;
 }
 
 .pendulum .metal-ball:nth-of-type(3) {
   transform: rotate(0deg);
+  transition-property: transform;
+  transition-duration: ease-in;
+  transition-delay: 0s;
 }
 .pendulum:hover .metal-ball:nth-of-type(3) {
-  transform: rotate(-20deg);
+  transform: rotate(-30deg);
+  transition-property: transform;
+  transition-duration: ease-out;
+  transition-delay: .6s;
 }
