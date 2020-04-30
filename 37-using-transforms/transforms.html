@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Transforms</title>
+    <link rel="stylesheet" href="css/index.css">
+  </head>
+  <body>
+    <header>
+      <h1>Transforms</h1>
+    </header>
+    <main>
+      <section>
+        <header>
+          <h2>Mixing Rotations with Translates</h2>
+          <p>Let's simulate a solar system by placing the Earth off to the right the Sun, the moon in orbit around the Earth, off to the right too, like this image:</p>
+          <p>
+            <img src="images/solar-system.png" alt="Solar system representation">
+          </p>
+          <p>Then let's try rotating the Earth around the Sun, and rotating the moon around the Earth, by selecting the right elements to transform.</p>
+          <p>To simulate it fully, we have to light the right side of the Earth and Moon as they travel around the Sun. How can we undo the rotations of these elements if needed?</p>
+          <p><b>If you have some time left over:</b></p>
+          <ul>
+            <li>Try to simulate our solar system in terms of scale. If the Sun is one unit high, then how many units would the Earth be in size? How many units would the Earth be apart from the Sun? etc.</li>
+            <li>Try adding other planets. Saturn with its many moons would be fun to make :)</li>
+            <li>Try going 3D! Shift our perspective, place tilts in the Earth spinning on its own axis, and the Moon's orbit around Earth tilting by 5 degrees.</li>
+          </ul>
+        </header>
+        <div class="example">
+          <div class="scene">
+            <div id="solar-system" class="sphere orbit pivot">
+              <div id="sun" class="sphere pivot"></div>
+              <div id="earth-system" class="pivot sphere orbit">
+                <div id="earth" class="sphere pivot"></div>
+                <div id="luna" class="sphere pivot"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- <section>
+        <header>
+          <h2></h2>
+          <p></p>
+        </header>
+        <div class="example">
+
+        </div>
+      </section> -->
+    </main>
+  </body>
+</html>
