@@ -57,6 +57,7 @@
     var(--white-disc);
   background-position:
     50% 50%;
+  transform: translateZ(125px);
 }
 
 #face-2 {
@@ -66,6 +67,7 @@
   background-position:
     20% 20%,
     80% 80%;
+    transform: translate(-125px) rotateY(90deg);
 }
 
 #face-3 {
@@ -77,6 +79,7 @@
     20% 20%,
     50% 50%,
     80% 80%;
+    transform: translateY(-125px) rotateX(90deg);
 }
 
 #face-4 {
@@ -90,6 +93,7 @@
     20% 80%,
     80% 20%,
     80% 80%;
+    transform: translateY(125px) rotateX(90deg);
 }
 
 #face-5 {
@@ -105,6 +109,7 @@
     50% 50%,
     80% 20%,
     80% 80%;
+    transform: translate(125px) rotateY(90deg);
 }
 
 #face-6 {
@@ -122,6 +127,7 @@
     80% 20%,
     80% 50%,
     80% 80%;
+    transform: translateZ(-125px);
 }
 
 #dice-scene label {
@@ -134,8 +140,7 @@
   padding-inline-start: calc(0.5rem + 0.5rem + 1rem);
   padding-inline-end: 0.5rem;
   line-height: 1;
-  font-size: 1rem;
-}
+  font-size: 1re250}
 
 #dice-scene input {
   position: absolute;
@@ -145,5 +150,4 @@
 
 :checked ~ #dice {
   /* This is what kicks off the animation */
-  animation: spin 20s ease-in-out infinite;
-}
+  animation: spin 20s ease-in-out infinite;250
