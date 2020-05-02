@@ -127,7 +127,7 @@
     80% 20%,
     80% 50%,
     80% 80%;
-    transform: translateZ(-125px);
+  transform: translateZ(-125px);
 }
 
 #dice-scene label {
