@@ -150,4 +150,5 @@
 
 :checked ~ #dice {
   /* This is what kicks off the animation */
-  animation: spin 20s ease-in-out infinite;250
+  animation: spin 20s ease-in-out infinite;
+}
