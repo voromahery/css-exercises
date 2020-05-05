@@ -3,7 +3,7 @@
 }
 
 #court {
-  border-block-end: peru solid 50px;
+  border-block-end: peru solid 20px;
   position: relative;
   height: calc(var(--ball-diameter) * 5);
 }
@@ -22,5 +22,5 @@
   background-position:
     50% -25px,
     50% 50%;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;;
 }
