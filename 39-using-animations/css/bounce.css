@@ -22,5 +22,31 @@
   background-position:
     50% -25px,
     50% 50%;
-  background-repeat: no-repeat;;
+  background-repeat: no-repeat;
 }
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+
+60% {
+
+}
+
+95% {
+  transform: translateY(calc(calc(var(--ball-diameter) * 5) - (var(--ball-diameter))));
+}
+
+  100% {
+    transform: translateY(calc(calc(calc(var(--ball-diameter) * 5) - (var(--ball-diameter))) + 12px))  scale(1.2, 0.8);
+  }
+}
+
+  #ball {
+  animation: bounce 1.5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  }
+
