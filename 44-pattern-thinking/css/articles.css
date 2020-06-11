@@ -39,15 +39,59 @@
 
 /* 1 */
 [data-example="1"] {
-
+  padding: 0;
 }
 
-/* 2 */
-[data-example="2"] {
+[data-example="1"] > article {
+  display: grid;
+  grid-gap: 1rem;
+  border: 1rem solid #000000;
+}
 
+[data-example="1"] h2,
+[data-example="1"] p {
+                        display: inline-block;
+                      }
+
+
+/* 2 */
+[data-example="2"] header,
+[data-example="2"] .content,
+[data-example="2"] footer {
+                      display: flex;
+                      place-content: center;
+                    }
+
+[data-example="2"] .content {
+  margin-block-end: 1rem;
+  margin-block-start: 1rem;
+}
+
+[data-example="2"] > article{
+  outline: solid;
+  outline-width: 1rem;
 }
 
 /* 3 */
 [data-example="3"] {
+  background-color: #000000;
+}
 
+[data-example="3"] > article{
+background-color: #ffffff;
+height: 100%;
+}
+
+[data-example="3"] .content{
+  transform: translateY(20%);
+}
+
+[data-example="3"] footer{
+  transform: translateY(40%);
+}
+
+[data-example="3"] h2,
+[data-example="3"] p {
+  width: max-content;
+  margin: auto;
 }
