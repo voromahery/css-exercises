@@ -78,16 +78,11 @@
 }
 
 [data-example="3"] > article{
-background-color: #ffffff;
-height: 100%;
-}
-
-[data-example="3"] .content{
-  transform: translateY(20%);
-}
-
-[data-example="3"] footer{
-  transform: translateY(40%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff;
+  height: 100%;
 }
 
 [data-example="3"] h2,
