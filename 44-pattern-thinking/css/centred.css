@@ -16,7 +16,7 @@
 [data-example="4"] {
   display: flex;
   flex-direction: column;
-  place-content: center;
+  justify-content: center;
 }
 
 [data-example="4"] .centred {
@@ -26,10 +26,22 @@
 
 /* 5 */
 [data-example="5"] .centred{
+  transform: translateY(50%);
+  text-align: center;
+}
 
+[data-example="5"] p {
+  display: inline-block;
 }
 
 /* 6 */
-[data-example="6"] {
+[data-example="6"] .centred{
+position: relative;
+top: 24%;
+}
 
+[data-example="6"] p {
+margin: auto;
+width: max-content;
+text-align: center;
 }
