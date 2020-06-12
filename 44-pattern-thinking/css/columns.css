@@ -20,9 +20,22 @@
 }
 
 /* 7 */
-[data-example="7"] {
-
+[data-example="7"] .columns{
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-gap: 1rem;
 }
+
+[data-example="7"] p {
+  margin-block-end: 5rem;
+}
+
+/*
+[data-example="7"] aside,
+[data-example="7"] article{
+  padding-block-end: 4rem;
+}
+*/
 
 /* 8 */
 [data-example="8"] {
