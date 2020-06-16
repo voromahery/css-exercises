@@ -53,6 +53,7 @@
 [data-example="12"] .button{
   display: grid;
   grid-gap: 1rem;
+  margin: auto;
 }
 
 [data-example="12"] span{
