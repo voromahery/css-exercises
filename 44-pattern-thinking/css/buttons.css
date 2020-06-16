@@ -47,6 +47,7 @@
 /* 12 */
 [data-example="12"] img{
   min-width: 1rem;
+  margin-inline-start: 1rem;
 }
 
 [data-example="12"] .button{
@@ -57,4 +58,5 @@
 [data-example="12"] span{
   grid-row: 1;
   grid-column: 2;
+  margin-inline-end: 1rem;
 }
