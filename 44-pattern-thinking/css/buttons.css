@@ -15,9 +15,22 @@
 }
 
 /* 10 */
-[data-example="10"] {
+[data-example="10"] img{
+  width: 1rem;
+  margin-inline-end: 1rem;
+}
+
+[data-example="10"] span{
+  display: flex;
+  justify-content: center;
+  padding-inline-start: 2rem;
+  padding-inline-end: 2rem;
+}
+
+[data-example="11"] {
 
 }
+
 
 /* 11 */
 [data-example="11"] {
