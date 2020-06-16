@@ -44,15 +44,17 @@
   background-size: contain;
 }
 
-[data-example="11"] {
-
-}
-
-[data-example="11"] {
-
-}
-
 /* 12 */
-[data-example="12"] {
+[data-example="12"] img{
+  min-width: 1rem;
+}
 
+[data-example="12"] .button{
+  display: grid;
+  grid-gap: 1rem;
+}
+
+[data-example="12"] span{
+  grid-row: 1;
+  grid-column: 2;
 }
