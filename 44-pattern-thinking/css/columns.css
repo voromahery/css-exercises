@@ -38,11 +38,33 @@
 */
 
 /* 8 */
+[data-example="8"] .columns{
+  display: flex;
+  justify-content: space-between;
+  height: 165px;
+}
+
+[data-example="8"] article,
+[data-example="8"] aside {
+}
+
 [data-example="8"] {
 
 }
 
+[data-example="8"] {
+
+}
 /* 9 */
+[data-example="9"] {
+columns: 2;
+}
+
+[data-example="9"] aside,
+[data-example="9"] article{
+  height: 130px;
+}
+
 [data-example="9"] {
 
 }
