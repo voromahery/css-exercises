@@ -27,12 +27,27 @@
   padding-inline-end: 2rem;
 }
 
+/* 11 */
+[data-example="11"] .button{
+  position: relative;
+  width: 12rem;
+}
+
+[data-example="11"] .button::before{
+  content: "";
+  background-image: url("../images/icon_heart.svg");
+  position: absolute;
+  left: 15%;
+  background-repeat: no-repeat;
+  width: 1rem;
+  height: 1rem;
+  background-size: contain;
+}
+
 [data-example="11"] {
 
 }
 
-
-/* 11 */
 [data-example="11"] {
 
 }
