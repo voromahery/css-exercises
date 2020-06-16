@@ -41,7 +41,7 @@
 [data-example="8"] .columns{
   display: flex;
   justify-content: space-between;
-  height: 165px;
+  height: 100%;
 }
 
 [data-example="8"] article,
